@@ -1,0 +1,6 @@
+(:name color-theme-lush
+       :description "A dark theme with strong colors"
+       :type github
+       :pkgname "andre-richter/emacs-lush-theme"
+       :url "https://github.com/andre-richter/emacs-lush-theme.git"
+       :prepare (add-to-list 'custom-theme-load-path default-directory))
