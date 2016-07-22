@@ -5,6 +5,6 @@
      ))
 
 (blink-cursor-mode -1)
-(load-theme 'monokai t)
+(load-theme 'leuven t)
 (setq default-cursor-type 'bar)
 (global-hl-line-mode 1)

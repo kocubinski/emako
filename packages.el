@@ -17,6 +17,8 @@
                 smartparens
 		rainbow-delimiters
 		company-mode
+		neotree
+		emacs-leuven-theme
 		)))
 
 (el-get 'sync el-packages)

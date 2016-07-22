@@ -9,6 +9,8 @@
     (add-hook n 'company-mode)))
 
 (sp-use-smartparens-bindings)
+(sp-local-pair 'emacs-lisp-mode "`" "'")
+(sp-local-pair 'emacs-lisp-mode "'" nil :actions nil)
 
 (defun live-lisp-describe-thing-at-point ()
   "Show the documentation of the Elisp function and variable near point.
