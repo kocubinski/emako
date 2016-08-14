@@ -19,6 +19,8 @@
 		company-mode
 		neotree
 		emacs-leuven-theme
+		clojure-mode
+		cider
 		)))
 
 (el-get 'sync el-packages)
