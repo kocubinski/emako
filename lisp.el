@@ -33,3 +33,5 @@
                                      (and (symbolp obj) (fboundp obj) obj))))))
                    (describe-function sym))
                   ((setq sym (variable-at-point)) (describe-variable sym)))))
+
+;; clojure
