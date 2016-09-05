@@ -21,6 +21,10 @@
 		emacs-leuven-theme
 		clojure-mode
 		cider
+		;;mysql
+		;;sql-completion
+		edbi
+		company-edbi
 		)))
 
 (el-get 'sync el-packages)
