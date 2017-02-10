@@ -8,7 +8,7 @@
     (add-hook n 'rainbow-delimiters-mode)
     (add-hook n 'company-mode)))
 
-(sp-use-smartparens-bindings)
+(sp-use-paredit-bindings)
 (sp-local-pair 'emacs-lisp-mode "`" "'")
 (sp-local-pair 'emacs-lisp-mode "'" nil :actions nil)
 
@@ -35,3 +35,5 @@
                   ((setq sym (variable-at-point)) (describe-variable sym)))))
 
 ;; clojure
+
+()

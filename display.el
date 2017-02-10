@@ -7,7 +7,7 @@
 
 (blink-cursor-mode -1)
 (load-theme 'monokai t)
-(setq default-cursor-type 'bar)
+(setq-default cursor-type 'bar)
 (global-hl-line-mode 1)
 
 ;(set-face-attribute 'default nil :font "Dejavu Sans Mono-10")

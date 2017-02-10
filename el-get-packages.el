@@ -25,6 +25,7 @@
 		;;sql-completion
 		edbi
 		company-edbi
+		sql-indent
 		)))
 
 (el-get 'sync el-packages)
