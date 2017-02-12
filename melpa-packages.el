@@ -1,3 +1,6 @@
+
+;; MELPA sources
+
 (require 'package)
 
 (setq
@@ -35,6 +38,9 @@
 
 ;; scala
 (use-package scala-mode)
-(use-package ensime)
 
+;; use melpa-stable for scala 2.11.8
+;; the unstable (dev) version is available on melpa
+(use-package ensime
+  :pin melpa)
 
