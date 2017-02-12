@@ -33,7 +33,7 @@
 (use-package neotree)
 (use-package clojure-mode)
 (use-package cider)
-
+(use-package hydra)
 (use-package ag)
 
 ;; scala
