@@ -56,7 +56,7 @@
   ("a" move-beginning-of-line "home")
   ("e" move-end-of-line "end")
 
-  ("O" split-line "new line")
+  ("O" vi-new-line "new line")
   ("p" vi-paste-line "paste-line")
   ("x" delete-char "delete")
   ("u" undo "undo")
