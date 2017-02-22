@@ -11,6 +11,7 @@
 (load-el "misc.el")
 (load-el "keys.el")
 (load-el "sql.el")
+(load-el "scala.el")
 
 (add-to-list 'exec-path (concat (getenv "HOME") "/bin"))
 (setenv "PERL5LIB" (concat (getenv "HOME") "/perl5/lib/perl5"))
