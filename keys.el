@@ -18,9 +18,7 @@
 
 (defun vi-kill-line ()
   (interactive)
-  (move-beginning-of-line 1)
-  (kill-line)
-  (kill-line))
+  (kill-whole-line))
 
 (defun vi-new-line ()
   (interactive)
