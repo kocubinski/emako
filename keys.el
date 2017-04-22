@@ -1,4 +1,3 @@
-(global-set-key (kbd "C-,") 'other-window)
 
 ;; beautiful vim bindings!
 
@@ -65,4 +64,12 @@
   
   ("i" nil "quit"))
 
+;; navigation
 
+(global-set-key (kbd "C-,") 'other-window)
+(global-set-key (kbd "M-<left>") 'pop-global-mark)
+
+;; org mode
+(add-hook 'org-mode-hook
+	  (lambda ()
+	    (local-unset-key (kbd "C-,"))))
