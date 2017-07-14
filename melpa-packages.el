@@ -21,7 +21,7 @@
 
 (setq use-package-always-ensure t)
 
-;; not canonical -- but I want to keep all my packages imports in one place.
+;; not idiomatic -- but I want to keep all my packages imports in one place.
 
 ;;(use-package leuven-theme)
 (use-package monokai-theme)
@@ -35,6 +35,11 @@
 (use-package cider)
 (use-package hydra)
 (use-package ag)
+(use-package projectile)
+(use-package helm-projectile)
+(use-package magit)
+(use-package simple-httpd)
+
 
 ;; scala
 (use-package scala-mode)

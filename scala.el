@@ -1,3 +1,3 @@
-(load-file "lib/besi.el")
+(load-file "~/.emacs.d/lib/besi.el")
 
 (require 'besi)

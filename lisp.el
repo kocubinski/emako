@@ -1,3 +1,7 @@
+(require 'clj-refactor)
+
+;; general lisp
+
 (add-hook 'emacs-lisp-mode-hook 'turn-on-eldoc-mode)
 (add-hook 'lisp-interaction-mode-hook 'turn-on-eldoc-mode)
 (add-hook 'ielm-mode-hook 'turn-on-eldoc-mode)
@@ -36,4 +40,16 @@
 
 ;; clojure
 
-()
+(use-package clj-refactor
+  :init
+  (add-hook 'clojure-mode-hook 'clj-refactor-mode))
+
+(defun the-cider-repl-hook ()
+  (smartparens-mode 1)
+  (company-mode 1))
+
+(defun the-cider-mode-hook ()
+  (company-mode 1))
+
+(add-hook 'cider-repl-mode-hook #'the-cider-repl-hook)
+(add-hook 'cider-mode-hook #'the-cider-mode-hook)

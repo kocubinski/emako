@@ -40,7 +40,7 @@
   ("y" (return 'vi-yank-line) "line")
   )
 
-(defhydra hydra-vi (global-map "C-j")
+(defhydra hydra-vi (global-map "s-<escape>")
   "vi mode"
   ("l" forward-char "forward")
   ("f" forward-char "forward")
@@ -72,4 +72,5 @@
 ;; org mode
 (add-hook 'org-mode-hook
 	  (lambda ()
+	    (flyspell-mode)
 	    (local-unset-key (kbd "C-,"))))
