@@ -51,5 +51,11 @@
 (defun the-cider-mode-hook ()
   (company-mode 1))
 
+(defun the-clojure-mode-hook ()
+  (magit-file-mode 1))
+
 (add-hook 'cider-repl-mode-hook #'the-cider-repl-hook)
 (add-hook 'cider-mode-hook #'the-cider-mode-hook)
+(add-hook 'clojure-mode-hook #'the-clojure-mode-hook)
+
+(setq cider-repl-use-pretty-printing 1)
