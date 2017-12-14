@@ -61,7 +61,7 @@
   ("d" hydra-vi-delete/body "delete" :exit t)
   ("y" hydra-vi-yank/body "yank" :exit t)
   ("c" hydra-vi-change/body "change" :exit t)
-  
+
   ("i" nil "quit"))
 
 ;; navigation
@@ -73,4 +73,4 @@
 (add-hook 'org-mode-hook
 	  (lambda ()
 	    (flyspell-mode)
-	    (local-unset-key (kbd "C-,"))))
+	    (define-key flyspell-mode-map (kbd "C-,") nil)))
