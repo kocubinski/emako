@@ -39,6 +39,8 @@
 (use-package helm-projectile)
 (use-package magit)
 (use-package simple-httpd)
+(use-package dockerfile-mode)
+(use-package yaml-mode)
 
 
 ;; scala
