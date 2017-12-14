@@ -42,6 +42,7 @@
   (global-magit-file-mode 1))
 (use-package simple-httpd)
 (use-package yaml-mode)
+(use-package dockerfile-mode)
 
 ;; scala
 (use-package scala-mode)
