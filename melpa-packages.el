@@ -37,12 +37,13 @@
 (use-package ag)
 (use-package projectile)
 (use-package helm-projectile)
-(use-package magit)
+(use-package magit
+  :init
+  (global-magit-file-mode 1))
 (use-package simple-httpd)
-(use-package dockerfile-mode)
 (use-package yaml-mode)
 (use-package markdown-mode)
-
+(use-package dockerfile-mode)
 
 ;; scala
 (use-package scala-mode)
