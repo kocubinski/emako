@@ -23,7 +23,7 @@
 
 ;; not idiomatic -- but I want to keep all my packages imports in one place.
 
-;;(use-package leuven-theme)
+(use-package solarized-theme)
 (use-package monokai-theme)
 (use-package async)
 (use-package helm)
@@ -41,6 +41,7 @@
 (use-package simple-httpd)
 (use-package dockerfile-mode)
 (use-package yaml-mode)
+(use-package markdown-mode)
 
 
 ;; scala

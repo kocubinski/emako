@@ -73,4 +73,5 @@
 (add-hook 'org-mode-hook
 	  (lambda ()
 	    (flyspell-mode)
+	    (define-key org-mode-map (kbd "C-,") nil)
 	    (define-key flyspell-mode-map (kbd "C-,") nil)))

@@ -6,7 +6,7 @@
      ))
 
 (blink-cursor-mode -1)
-(load-theme 'monokai t)
+(load-theme 'solarized-dark t)
 (setq-default cursor-type 'bar)
 (global-hl-line-mode 1)
 
