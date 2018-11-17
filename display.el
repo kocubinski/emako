@@ -2,7 +2,7 @@
    (if (eq system-type 'windows-nt) 
       	 (set-face-attribute 'default nil :font "Consolas-11")
      ;(set-face-attribute 'default nil :font "Inconsolata-11")
-     (set-face-attribute 'default nil :font "Monaco-12")
+     ;;(set-face-attribute 'default nil :font "Monaco-12")
      ))
 
 (blink-cursor-mode -1)
@@ -10,7 +10,7 @@
 (setq-default cursor-type 'bar)
 (global-hl-line-mode 1)
 
-;(set-face-attribute 'default nil :font "Dejavu Sans Mono-10")
+(set-face-attribute 'default nil :font "Dejavu Sans Mono-9")
 ;(set-face-attribute 'default nil :font "Noto Mono-10")
 ;(set-face-attribute 'default nil :font "Inconsolata-12")
 ;(set-face-attribute 'default nil :font "Monaco-10")
@@ -43,3 +43,10 @@
   (set-local-window-size-fixed))
 
 (global-set-key (kbd "C-M-s-p") 'make-window-sticky)
+
+;; always splits vertically.. but this sucks.
+;;(setq split-height-threshold nil)
+;;(setq split-width-threshold 0)
+
+;;(setq split-width-threshold nil)
+;;(setq split-width-threshold 1)

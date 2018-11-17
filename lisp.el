@@ -46,6 +46,7 @@
 
 (defun the-cider-repl-hook ()
   (smartparens-mode 1)
+  (rainbow-delimiters-mode 1)
   (company-mode 1))
 
 (defun the-cider-mode-hook ()

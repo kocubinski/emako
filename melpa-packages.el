@@ -53,3 +53,5 @@
 (use-package ensime
   :pin melpa)
 
+(use-package terraform-mode)
+(use-package groovy-mode)

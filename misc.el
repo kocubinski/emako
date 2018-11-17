@@ -18,3 +18,6 @@
 ;; shell script indentation
 (setq sh-basic-offset 2)
 (setq sh-indentation 2)
+
+;; kubernetes hacks for ladders
+(setenv "KUBERNETES_SERVICE_HOST" "true")
