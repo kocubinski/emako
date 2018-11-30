@@ -54,4 +54,12 @@
   :pin melpa)
 
 (use-package terraform-mode)
-(use-package groovy-mode)
+
+(use-package exec-path-from-shell)
+
+(defun the-groovy-mode-hook ()
+  (groovy-indent-offset 2))
+
+(use-package groovy-mode
+    :init
+    (add-hook 'groovy-mode-hook #'the-groovy-mode-hook))
