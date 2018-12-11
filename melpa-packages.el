@@ -58,8 +58,12 @@
 (use-package exec-path-from-shell)
 
 (defun the-groovy-mode-hook ()
-  (groovy-indent-offset 2))
+  (custom-set-variables '(groovy-indent-offset 2))
+  (rainbow-delimiters-mode-enable)
+  (setq indent-tabs-mode nil))
 
 (use-package groovy-mode
     :init
     (add-hook 'groovy-mode-hook #'the-groovy-mode-hook))
+
+(use-package json-mode)
