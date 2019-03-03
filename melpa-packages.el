@@ -32,8 +32,10 @@
 (use-package company)
 (use-package neotree)
 (use-package clojure-mode)
+(use-package cider
+  :ensure t
+  :pin melpa-stable)
 (use-package clj-refactor)
-(use-package cider)
 (use-package hydra)
 (use-package ag)
 (setq projectile-keymap-prefix (kbd "C-c C-p"))
