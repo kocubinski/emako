@@ -32,6 +32,7 @@
 (use-package company)
 (use-package neotree)
 (use-package clojure-mode)
+(use-package clj-refactor)
 (use-package cider)
 (use-package hydra)
 (use-package ag)
