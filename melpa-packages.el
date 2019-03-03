@@ -36,6 +36,7 @@
 (use-package cider)
 (use-package hydra)
 (use-package ag)
+(setq projectile-keymap-prefix (kbd "C-c C-p"))
 (use-package projectile)
 (use-package helm-projectile)
 (use-package magit
