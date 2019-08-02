@@ -50,3 +50,8 @@
 
 ;;(setq split-width-threshold nil)
 ;;(setq split-width-threshold 1)
+
+;; (use-package window-purpose
+;;   :config
+;;   ((lambda ()
+;;      (purpose-mode))))

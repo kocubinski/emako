@@ -17,7 +17,7 @@
  '(groovy-indent-offset 2)
  '(package-selected-packages
    (quote
-    (markdown-preview-mode groovy-mode terraform-mode yaml-mode xref-js2 js2-refactor js2-mode use-package smartparens simple-httpd rainbow-delimiters neotree monokai-theme magit helm-projectile ensime clj-refactor ag))))
+    (window-purpose markdown-preview-mode groovy-mode terraform-mode yaml-mode xref-js2 js2-refactor js2-mode use-package smartparens simple-httpd rainbow-delimiters neotree monokai-theme magit helm-projectile ensime clj-refactor ag))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -21,3 +21,4 @@
 
 ;; kubernetes hacks for ladders
 (setenv "KUBERNETES_SERVICE_HOST" "true")
+(setenv "KUROSAWA_S3_CONFIG_URI" "s3://ladders-config/local/")

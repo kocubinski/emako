@@ -1,6 +1,11 @@
 el-get
 recentf
+\#recentf\#
 auto-save-list
 eshell
-elpa
+elpa*
 projectile-bookmarks.eld
+url/cookies
+tramp
+network-security.data
+org-templates/
