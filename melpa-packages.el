@@ -73,4 +73,6 @@
 (use-package json-mode)
 (use-package jsonnet-mode
   :init
-  (add-to-list 'auto-mode-alist '("\\.jsonnet\\'" . jsonnet-mode)))
+  (progn
+    (add-to-list 'auto-mode-alist '("\\.jsonnet\\'" . jsonnet-mode))
+    (add-to-list 'auto-mode-alist '("\\.libsonnet\\'" . jsonnet-mode))))
