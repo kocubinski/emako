@@ -71,3 +71,6 @@
     (add-hook 'groovy-mode-hook #'the-groovy-mode-hook))
 
 (use-package json-mode)
+(use-package jsonnet-mode
+  :init
+  (add-to-list 'auto-mode-alist '("\\.jsonnet\\'" . jsonnet-mode)))
