@@ -75,3 +75,7 @@
 	    (flyspell-mode)
 	    (define-key org-mode-map (kbd "C-,") nil)
 	    (define-key flyspell-mode-map (kbd "C-,") nil)))
+
+(defun reformat-buffer ()
+  (interactive)
+  (execute-kbd-macro (kbd "M-% > < RET > C-q C-j < RET ! C-M-\\")))
