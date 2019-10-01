@@ -79,3 +79,12 @@
 (defun reformat-buffer ()
   (interactive)
   (execute-kbd-macro (kbd "M-% > < RET > C-q C-j < RET ! C-M-\\")))
+
+(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+
+(defun mark-current-sexp ()
+  (interactive)
+  (sp-backward-up-sexp)
+  (mark-sexp))
+
+(global-set-key (kbd "C-s-SPC") 'mark-current-sexp)
