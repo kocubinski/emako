@@ -44,14 +44,16 @@
 
 (global-set-key (kbd "C-M-s-p") 'make-window-sticky)
 
-;; always splits vertically.. but this sucks.
-;;(setq split-height-threshold nil)
-;;(setq split-width-threshold 0)
+;; default vertical split?
+(setq split-height-threshold nil)
+(setq split-width-threshold 90)
 
-;;(setq split-width-threshold nil)
-;;(setq split-width-threshold 1)
+(defun toggle-maximize-buffer () "Maximize buffer"
+  (interactive)
+  (if (= 1 (length (window-list)))
+      (jump-to-register '_) 
+    (progn
+      (window-configuration-to-register '_)
+      (delete-other-windows))))
 
-;; (use-package window-purpose
-;;   :config
-;;   ((lambda ()
-;;      (purpose-mode))))
+(global-set-key (kbd "S-s-RET") 'toggle-maximize-buffer)
