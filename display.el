@@ -56,4 +56,4 @@
       (window-configuration-to-register '_)
       (delete-other-windows))))
 
-(global-set-key (kbd "S-s-RET") 'toggle-maximize-buffer)
+(global-set-key (kbd "<C-s-return>") 'toggle-maximize-buffer)
