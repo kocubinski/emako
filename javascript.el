@@ -65,3 +65,17 @@
 ;;   :hook ((typescript-mode . tide-setup)
 ;;          (typescript-mode . tide-hl-identifier-mode)
 ;;          (before-save . tide-format-before-save)))
+
+(use-package jsonnet-mode)
+
+(defun jsonnet-after-save ()
+  "Before save hook to format the buffer before each save."
+  (when (eq "jsonnet-mode" 'major-mode))
+    (jsonnet-format-buffer))
+
+(defun jsonnet-format-buffer ()
+  "Reformat entire buffer using the Jsonnet format utility."
+  (interactive)
+  (call-process "jsonnetfmt" nil nil nil "--in-place" (buffer-file-name)))
+
+(add-hook 'after-save-hook 'jsonnet-after-save)

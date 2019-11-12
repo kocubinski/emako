@@ -72,6 +72,7 @@
 
 (use-package json-mode)
 (use-package jsonnet-mode
+  :pin melpa
   :init
   (progn
     (add-to-list 'auto-mode-alist '("\\.jsonnet\\'" . jsonnet-mode))
