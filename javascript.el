@@ -68,6 +68,11 @@
 
 (use-package jsonnet-mode)
 
+(defun setup-jsonnet-mode ()
+  (rainbow-delimiters-mode 1))
+
+(add-hook 'jsonnet-mode-hook #'setup-jsonnet-mode)
+
 (defun jsonnet-after-save ()
   "Before save hook to format the buffer before each save."
   (when (eq "jsonnet-mode" 'major-mode))
