@@ -75,8 +75,8 @@
 
 (defun jsonnet-after-save ()
   "Before save hook to format the buffer before each save."
-  (when (eq "jsonnet-mode" 'major-mode))
-    (jsonnet-format-buffer))
+  (when (eq "jsonnet-mode" 'major-mode)
+    (jsonnet-format-buffer)))
 
 (defun jsonnet-format-buffer ()
   "Reformat entire buffer using the Jsonnet format utility."
