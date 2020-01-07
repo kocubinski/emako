@@ -60,3 +60,7 @@
 (add-hook 'clojure-mode-hook #'the-clojure-mode-hook)
 
 (setq cider-repl-use-pretty-printing 1)
+
+(setq cider-clojure-cli-parameters
+      (concat "-A:test:deps:dev "
+	      (symbol-value 'cider-clojure-cli-parameters)))
