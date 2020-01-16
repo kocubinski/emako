@@ -1,6 +1,8 @@
 ;; required:
 ;(package-initialize)
 
+(setq package-check-signature nil)
+
 (defun load-el (f)
   (load-file (concat "~/.emacs.d/" f)))
 
