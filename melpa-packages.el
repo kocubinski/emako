@@ -54,8 +54,8 @@
 
 ;; use melpa-stable for scala 2.11.8
 ;; the unstable (dev) version is available on melpa
-(use-package ensime
-  :pin melpa)
+;;(use-package ensime
+;;  :pin melpa)
 
 (use-package terraform-mode)
 

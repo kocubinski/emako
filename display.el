@@ -19,10 +19,11 @@
 ;; https://stackoverflow.com/questions/5151620/how-do-i-make-this-emacs-frame-keep-its-buffer-and-not-get-resized
 ;; https://superuser.com/questions/582501/is-there-a-way-to-control-which-window-emacs-opens-new-buffers-in/632050#632050
 
-(defadvice pop-to-buffer (before cancel-other-window first)
-  (ad-set-arg 1 nil))
+;; I'm not sure why I orginally incorporated this, but the behavior is intolerable.
+;; (defadvice pop-to-buffer (before cancel-other-window first)
+;;  (ad-set-arg 1 nil))
 
-(ad-activate 'pop-to-buffer)
+;;(ad-activate 'pop-to-buffer)
 
 (defun toggle-window-dedicated ()
   "Toggle whether the current active window is dedicated or not"
