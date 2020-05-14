@@ -55,9 +55,13 @@
 (defun the-clojure-mode-hook ()
   (magit-file-mode 1))
 
+(defun the-scheme-mode-hook ()
+  (setq-local ident-tabs-mode nil))
+
 (add-hook 'cider-repl-mode-hook #'the-cider-repl-hook)
 (add-hook 'cider-mode-hook #'the-cider-mode-hook)
 (add-hook 'clojure-mode-hook #'the-clojure-mode-hook)
+(add-hook 'scheme-mode-hook #'the-scheme-mode-hook)
 
 (setq cider-repl-use-pretty-printing 1)
 
