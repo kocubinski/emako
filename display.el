@@ -20,7 +20,7 @@
 ;; https://superuser.com/questions/582501/is-there-a-way-to-control-which-window-emacs-opens-new-buffers-in/632050#632050
 
 ;; I'm not sure why I orginally incorporated this, but the behavior is intolerable.
-;; (defadvice pop-to-buffer (before cancel-other-window first)
+;;(defadvice pop-to-buffer (before cancel-other-window first)
 ;;  (ad-set-arg 1 nil))
 
 ;;(ad-activate 'pop-to-buffer)
@@ -47,7 +47,9 @@
 
 ;; default vertical split?
 (setq split-height-threshold nil)
+
 (setq split-width-threshold 90)
+;;(setq split-width-threshold 88)
 
 (defun toggle-maximize-buffer () "Maximize buffer"
   (interactive)

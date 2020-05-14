@@ -53,6 +53,7 @@
   (company-mode 1))
 
 (defun the-clojure-mode-hook ()
+  (eldoc-mode 1)
   (magit-file-mode 1))
 
 (defun the-scheme-mode-hook ()
