@@ -9,3 +9,8 @@
   (set-fill-column 86))
 
 (add-hook 'markdown-mode-hook #'the-markdown-mode-hook)
+
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((emacs-lisp . t)
+   (scheme . t)))

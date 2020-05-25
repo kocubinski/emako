@@ -24,7 +24,8 @@
 ;; not idiomatic -- but I want to keep all my packages imports in one place.
 
 (use-package solarized-theme)
-(use-package monokai-theme)
+;; mere inclusion causes some irreversible changes to colors
+;;(use-package monokai-theme)
 (use-package async)
 (use-package helm)
 (use-package smartparens)
