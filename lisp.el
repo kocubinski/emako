@@ -66,6 +66,22 @@
 
 (setq cider-repl-use-pretty-printing 1)
 
-(setq cider-clojure-cli-parameters
-      (concat "-A:test:deps:dev "
-	      (symbol-value 'cider-clojure-cli-parameters)))
+(setq cider-clojure-cli-global-options
+;;      "-A:test:deps:dev -R:emacs"
+      "-A:test:deps:dev"
+      )
+
+;; (defun cider-clojure-cli-jack-in-dependencies (global-opts params dependencies)
+;;   "Create Clojure tools.deps jack-in dependencies.
+;; Does so by concatenating GLOBAL-OPTS, DEPENDENCIES finally PARAMS."
+;;   (let ((dependencies (append dependencies cider-jack-in-lein-plugins)))
+;;     (concat
+;;      global-opts
+;;      (unless (seq-empty-p global-opts) " ")
+;;      ;; override the specifc version of cider-nrepl you're after
+;;      "-Sdeps '{:aliases {:emacs {:override-deps {cider/cider-nrepl {:mvn/version \"0.24.0\"}}}} :deps {"
+;;      (mapconcat #'identity
+;;                 (seq-map (lambda (dep) (format "%s {:mvn/version \"%s\"}" (car dep) (cadr dep))) dependencies)
+;;                 " ")
+;;      "}}' "
+;;      params)))

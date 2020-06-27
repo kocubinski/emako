@@ -14,3 +14,14 @@
  'org-babel-load-languages
  '((emacs-lisp . t)
    (scheme . t)))
+
+(use-package org-jira
+  :init
+  (setq jiralib-url "https://theladders.atlassian.net"))
+
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '(;; other Babel languages
+   (plantuml . t)))
+
+(setq org-plantuml-jar-path "~/.local/bin/plantuml.jar")
