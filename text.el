@@ -25,3 +25,7 @@
    (plantuml . t)))
 
 (setq org-plantuml-jar-path "~/.local/bin/plantuml.jar")
+
+(use-package org-make-toc
+  :init
+  (require 'org-make-toc))
