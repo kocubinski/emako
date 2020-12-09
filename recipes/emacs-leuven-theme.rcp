@@ -1,4 +1,0 @@
-(:name emacs-leuven-theme
-       :description "An elegant theme for light backgrounds, with built-in style for many components such as Org-mode, Gnus, Dired+ and EDiff"
-       :type github
-       :pkgname "fniessen/emacs-leuven-theme")

@@ -1,6 +1,0 @@
-(:name monokai-emacs
-       :description "Monokai color theme."
-       :type github
-       :pkgname "oneKelvinSmith/monokai-emacs"
-       :url "https://github.com/oneKelvinSmith/monokai-emacs.git"
-       :prepare (add-to-list 'custom-theme-load-path default-directory))

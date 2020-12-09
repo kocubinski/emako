@@ -9,3 +9,5 @@ url/cookies
 tramp
 network-security.data
 org-templates/
+session.*
+custom.el
