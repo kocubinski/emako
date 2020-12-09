@@ -96,3 +96,7 @@
   (call-process "jsonnetfmt" nil nil nil "--in-place" (buffer-file-name)))
 
 (add-hook 'after-save-hook 'jsonnet-after-save)
+
+(defun my/json-mode-hook ()
+   (setq tab-width 2))
+(add-hook 'json-mode-hook 'my/js2-mode-hook)

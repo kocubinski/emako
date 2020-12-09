@@ -29,3 +29,8 @@
 (use-package org-make-toc
   :init
   (require 'org-make-toc))
+
+(use-package web-mode
+  :init
+  (setq web-mode-markup-indent-offset 2)
+  (add-to-list 'auto-mode-alist '("\\.tmpl\\'" . web-mode)))
