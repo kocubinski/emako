@@ -19,6 +19,8 @@
   :init
   (setq jiralib-url "https://theladders.atlassian.net"))
 
+(setq org-jira-working-dir "~/dev/notebook/ladders-log/org-jira")
+
 (org-babel-do-load-languages
  'org-babel-load-languages
  '(;; other Babel languages
