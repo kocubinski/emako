@@ -59,6 +59,45 @@
 (require 'ido)
 (ido-mode t)
 
+;; Make Ido complete almost anything (except the stuff where it shouldn't)
+;; source https://www.emacswiki.org/emacs/InteractivelyDoThings#toc16
+
+(defvar ido-enable-replace-completing-read t
+  "If t, use ido-completing-read instead of completing-read if possible.
+    
+    Set it to nil using let in around-advice for functions where the
+    original completing-read is required.  For example, if a function
+    foo absolutely must use the original completing-read, define some
+    advice like this:
+    
+    (defadvice foo (around original-completing-read-only activate)
+      (let (ido-enable-replace-completing-read) ad-do-it))")
+
+;; Replace completing-read wherever possible, unless directed otherwise
+(defadvice completing-read
+    (around use-ido-when-possible activate)
+  (if (or (not ido-enable-replace-completing-read) ; Manual override disable ido
+	  (and (boundp 'ido-cur-list)
+	       ido-cur-list)) ; Avoid infinite loop from ido calling this
+      ad-do-it
+    (let ((allcomp (all-completions "" collection predicate)))
+      (if allcomp
+	  (setq ad-return-value
+		(ido-completing-read prompt
+				     allcomp
+				     nil require-match initial-input hist def))
+	ad-do-it))))
+
+;;You can make use of built-in ido fuzzy match with
+(setq ido-enable-flex-matching t)
+
+(use-package ido-vertical-mode
+  :init
+  (progn
+    (ido-mode 1)
+    (ido-vertical-mode 1)
+    (setq ido-vertical-define-keys 'C-n-and-C-p-only)))
+
 ;; ido in M-x for certain
 (global-set-key
  "\M-x"
@@ -69,6 +108,9 @@
      (ido-completing-read
       "M-x "
       (all-completions "" obarray 'commandp))))))
+
+;; Projectile
+(use-package projectile)
 
 ;; enable building of recent files
 (require 'recentf)
@@ -83,6 +125,13 @@
       (find-file file))))
 
 (global-set-key (kbd "C-x C-r") 'recentf-ido-find-file)
+
+
+;; source:
+;; https://github.com/kaushalmodi/.emacs.d/blob/master/setup-files/setup-backup.el
+;; Excess backup deletion will happen silently, without user confirmation, if
+;; `delete-old-versions' is set to `t'.
+(setq delete-old-versions t) ; default nil
 
 ;; --------------------------------------------------------------------------------
 ;; git.el
@@ -111,7 +160,6 @@
      (jump-to-register :magit-fullscreen))
 
 (bind-key "q" #'magit-quit-session magit-status-mode-map)
-
 
 ;; --------------------------------------------------------------------------------
 ;; lisp.el
@@ -158,7 +206,7 @@
 
 ;; --------------------------------------------------------------------------------
 ;; Clojure
-
+,
 (use-package clojure-mode)
 (use-package cider)
 (use-package clj-refactor)
@@ -202,3 +250,14 @@
 (setenv "KUROSAWA_S3_CONFIG_URI" "s3://ladders-config/local/")
 (setenv "CLJ_CONFIG" "/home/mattk/dev/ladders/services")
 
+;; Groovy
+(defun the-groovy-mode-hook ()
+  (custom-set-variables '(groovy-indent-offset 2))
+  (rainbow-delimiters-mode-enable)
+  (setq indent-tabs-mode nil))
+
+(use-package groovy-mode
+    :init
+    (add-hook 'groovy-mode-hook #'the-groovy-mode-hook))
+
+(use-package yaml-mode)
