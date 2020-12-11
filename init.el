@@ -109,8 +109,17 @@
       "M-x "
       (all-completions "" obarray 'commandp))))))
 
+;; (use-package smex
+;;   :init
+;;   (global-set-key (kbd "M-x") 'smex))
+
 ;; Projectile
-(use-package projectile)
+(use-package projectile
+  :init
+  (progn
+    (projectile-mode 1)
+    (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
+    ))
 
 ;; enable building of recent files
 (require 'recentf)
@@ -132,6 +141,9 @@
 ;; Excess backup deletion will happen silently, without user confirmation, if
 ;; `delete-old-versions' is set to `t'.
 (setq delete-old-versions t) ; default nil
+
+;; this behavior of closing all windows annoys me to no end
+(global-unset-key (kbd "ESC ESC ESC"))
 
 ;; --------------------------------------------------------------------------------
 ;; git.el
@@ -206,7 +218,7 @@
 
 ;; --------------------------------------------------------------------------------
 ;; Clojure
-,
+
 (use-package clojure-mode)
 (use-package cider)
 (use-package clj-refactor)
@@ -237,6 +249,38 @@
   (mark-sexp))
 
 (global-set-key (kbd "C-s-SPC") 'mark-current-sexp)
+
+;; --------------------------------------------------------------------------------
+;; text.el
+
+(use-package markdown-mode
+  :init
+  (progn
+    (defun the-markdown-mode-hook ()
+      (auto-fill-mode 1)
+      (set-fill-column 86))
+    (add-hook 'markdown-mode-hook #'the-markdown-mode-hook)))
+
+(defun the-org-mode-hook ()
+  (auto-fill-mode 1)
+  (set-fill-column 86))
+
+(add-hook 'org-mode-hook #'the-org-mode-hook)
+(add-hook 'org-mode-hook
+	  (lambda ()
+	    (flyspell-mode)
+	    (define-key org-mode-map (kbd "C-,") nil)
+	    (define-key flyspell-mode-map (kbd "C-,") nil)))
+
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((emacs-lisp . t)
+   (scheme . t)
+   (plantuml . t)))
+
+(setq org-plantuml-jar-path "~/.local/bin/plantuml.jar")
+
+(use-package dockerfile-mode)
 
 ;; --------------------------------------------------------------------------------
 ;; misc / should be elsewhere
