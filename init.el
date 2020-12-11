@@ -17,7 +17,11 @@
                     ("org" . "http://orgmode.org/elpa/")
                     ("melpa" . "http://melpa.org/packages/")
                     ("melpa-stable" . "http://stable.melpa.org/packages/"))
- package-archive-priorities '(("melpa-stable" . 1)))
+ package-archive-priorities '(("melpa"        . 5)
+			      ("org"          . 4)
+			      ("gnu"          . 3)
+			      ("melpa-stable" . 1)
+			      ))
 
 (package-initialize)
 
@@ -74,6 +78,7 @@
       (let (ido-enable-replace-completing-read) ad-do-it))")
 
 ;; Replace completing-read wherever possible, unless directed otherwise
+
 (defadvice completing-read
     (around use-ido-when-possible activate)
   (if (or (not ido-enable-replace-completing-read) ; Manual override disable ido
@@ -90,6 +95,9 @@
 
 ;;You can make use of built-in ido fuzzy match with
 (setq ido-enable-flex-matching t)
+
+;; source: https://www.masteringemacs.org/article/introduction-to-ido-mode
+(setq ido-everywhere t)
 
 (use-package ido-vertical-mode
   :init
@@ -149,8 +157,9 @@
 ;; git.el
 
 (use-package magit
-  :init
-  (global-magit-file-mode 1))
+;;  :init
+;;  (global-magit-file-mode 1)
+  )
 
 (defun kill-buffers (regexp)
   "Kill buffers matching REGEXP without asking for confirmation."
