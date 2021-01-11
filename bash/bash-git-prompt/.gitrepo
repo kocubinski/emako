@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/magicmonty/bash-git-prompt.git
+	branch = master
+	commit = 148d502b666a0d62ecc83680817596b097a70f2a
+	parent = 1ad7dd7126d6c1e7b2e5d73c084a7f57a9c80149
+	method = merge
+	cmdver = 0.4.1
