@@ -1,0 +1,333 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/mattk/dev/notebook/ladders-log/" . "weekly/")
+ ("/home/mattk/dev/yaqp/src/" . "yaqp/")
+ ("/home/mattk/dev/yaqp/" . "src/")
+ ("/home/mattk/dev/ladders/infrastructure/eks/Pulumi/" . ".idea/")
+ ("/home/mattk/dev/ladders/services/lib/hamilton/src/com/theladders/hamilton/" . "batch/")
+ ("/home/mattk/dev/ladders/samwise/src/com/theladders/" . "samwise/")
+ ("/home/mattk/dev/ladders/samwise/src/com/" . "theladders/")
+ ("/home/mattk/dev/ladders/samwise/src/" . "com/")
+ ("/home/mattk/dev/ladders/samwise/" . "src/")
+ ("/home/mattk/dev/ladders/services/lib/pennyworth/src/com/theladders/pennyworth/" . "cashbox/")
+ ("/home/mattk/dev/ladders/services/lib/pennyworth/src/com/theladders/" . "pennyworth/")
+ ("/home/mattk/dev/ladders/services/lib/pennyworth/src/com/" . "theladders/")
+ ("/home/mattk/dev/ladders/services/lib/pennyworth/src/" . "com/")
+ ("/home/mattk/dev/ladders/services/lib/pennyworth/" . "src/")
+ ("/home/mattk/dev/dotfiles/keys/" . "ladders/")
+ ("/home/mattk/dev/dotfiles/" . "keys/")
+ ("/home/mattk/dev/wine-build/src/wine-5.0/dlls/" . "shell32/")
+ ("/home/mattk/dev/wine-build/src/wine-5.0/" . "dlls/")
+ ("/home/mattk/dev/wine-build/src/debian/patches/" . "warnings/")
+ ("/home/mattk/dev/wine-build/src/debian/" . "patches/")
+ ("/home/mattk/dev/wine-build/src/" . "wine-5.0/")
+ ("/home/mattk/dev/wine-build/" . "builder/")
+ ("/home/mattk/dev/void-passage/" . "private/")
+ ("/home/mattk/dev/ladders/db-schema/maria/" . "scripts/")
+ ("/home/mattk/dev/ladders/db-schema/" . "maria/")
+ ("/home/mattk/dev/ladders/services/test/core/services/test/" . "resources/")
+ ("/home/mattk/dev/ladders/services/web/interstellar/test/com/theladders/" . "interstellar/")
+ ("/home/mattk/dev/ladders/services/web/interstellar/test/com/" . "theladders/")
+ ("/home/mattk/dev/ladders/services/web/interstellar/test/" . "com/")
+ ("/home/mattk/dev/ladders/services/web/interstellar/" . "test/")
+ ("/home/mattk/dev/ladders/services/web/" . "interstellar/")
+ ("/home/mattk/dev/ladders/services/test/web/services/test/" . "fixtures/")
+ ("/home/mattk/dev/ladders/services/test/web/services/" . "test/")
+ ("/home/mattk/dev/ladders/services/test/web/" . "services/")
+ ("/home/mattk/dev/ladders/services/test/core/services/" . "test/")
+ ("/home/mattk/dev/ladders/services/test/core/" . "services/")
+ ("/home/mattk/dev/ladders/services/test/" . "core/")
+ ("/home/mattk/dev/ladders/infrastructure/eks/" . "Pulumi/")
+ ("/home/mattk/dev/ladders/infrastructure/" . "eks/")
+ ("/home/mattk/dev/ladders/leone/" . "streams_apps/")
+ ("/home/mattk/dev/ladders/services/lib/hamilton/test/com/theladders/" . "hamilton/")
+ ("/home/mattk/dev/ladders/services/lib/hamilton/test/com/" . "theladders/")
+ ("/home/mattk/dev/ladders/services/lib/hamilton/test/" . "com/")
+ ("/home/mattk/dev/ladders/config/env/local/" . "configs/")
+ ("/home/mattk/dev/ladders/config/env/" . "local/")
+ ("/home/mattk/dev/ladders/config/" . "env/")
+ ("/home/mattk/dev/ladders/services/lib/hamilton/src/com/theladders/" . "hamilton/")
+ ("/home/mattk/dev/ladders/services/lib/hamilton/src/com/" . "theladders/")
+ ("/home/mattk/dev/ladders/services/lib/hamilton/src/" . "com/")
+ ("/home/mattk/dev/ladders/services/lib/hamilton/" . "test/")
+ ("/home/mattk/dev/ladders/services/lib/" . "hamilton/")
+ ("/home/mattk/dev/ladders/services/" . "lib/")
+ ("/home/mattk/dev/notebook/" . "ladders-log/")
+ ("/home/" . "mattk/")
+ ("/home/mattk/dev/AWS-PlantUML/dist/Database/" . "AmazonRDS/")
+ ("/home/mattk/dev/AWS-PlantUML/dist/" . "Database/")
+ ("/home/mattk/dev/AWS-PlantUML/" . "dist/")
+ ("/home/mattk/" . ".emacs.d/")
+ ("/home/mattk/dev/ladders/engineering/" . "services/")
+ ("/home/mattk/dev/ladders/" . "services/")
+ ("/home/mattk/dev/" . "nparse/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/mattk/dev/nparse/"
+ "/home/mattk/dev/yaqp/src/yaqp/"
+ "/home/mattk/dev/ladders/services/lib/hamilton/test/com/theladders/hamilton/"
+ "/home/mattk/dev/ladders/services/dev/"
+ "/home/mattk/dev/notebook/ladders-log/"
+ "/home/mattk/dev/notebook/ladders-log/weekly/"
+ "/home/mattk/dev/yaqp/"
+ "/home/mattk/.emacs.d/"
+ "/home/mattk/dev/ladders/infrastructure/eks/Pulumi/"
+ "/home/mattk/dev/ladders/services/lib/hamilton/src/com/theladders/hamilton/batch/"
+ "/home/mattk/dev/ladders/samwise/src/com/theladders/samwise/"
+ "/home/mattk/dev/ladders/services/lib/pennyworth/src/com/theladders/pennyworth/"
+ "/home/mattk/dev/ladders/services/lib/hamilton/src/com/theladders/hamilton/"
+ "/home/mattk/dev/ladders/config/env/local/configs/"
+ "/home/mattk/dev/ladders/config/dec/"
+ "/home/mattk/dev/ladders/config/bin/"
+ "/home/mattk/dev/dotfiles/keys/ladders/"
+ "/home/mattk/dev/notebook/ladders-log/ladders-ci/"
+ "/home/mattk/dev/ladders/services/lib/hamilton/dev/"
+ "/home/mattk/dev/ladders/services/lib/hamilton/"
+ "/home/mattk/dev/wine-build/builder/"
+ "/home/mattk/dev/wine-build/"
+ "/home/mattk/dev/wine-build/src/wine-5.0/dlls/shell32/"
+ "/home/mattk/dev/wine-build/src/wine-5.0/dlls/kernel32/"
+ "/home/mattk/dev/wine-build/src/debian/patches/warnings/"
+ "/home/mattk/dev/wine-build/src/wine-5.0.patched/"
+ "/home/mattk/dev/wine-build/src/"
+ "/home/mattk/dev/wine-build/src/wine-5.0/"
+ "/home/mattk/dev/void-passage/private/"
+ "/home/mattk/dev/ladders/db-schema/maria/scripts/"
+ "/etc/"
+ "/home/mattk/dev/ladders/services/test/core/services/test/"
+ "/home/mattk/dev/ladders/services/web/interstellar/test/com/theladders/interstellar/"
+ "/home/mattk/dev/ladders/services/test/web/services/test/fixtures/"
+ "/home/mattk/dev/ladders/services/lib/hamilton/test/com/theladders/"
+ "/home/mattk/dev/ladders/db-schema/"
+ "/home/mattk/dev/ladders/services/data/"
+ "/home/mattk/dev/ladders/services/"
+ "/home/mattk/dev/notebook/"
+ "/home/mattk/dev/ladders/config/"
+ "/home/mattk/dev/AWS-PlantUML/dist/Database/AmazonRDS/"
+ "/home/mattk/dev/emako-202012/"
+ "/home/mattk/dev/ladders/engineering/services/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "nparse_py.spec"
+ "nparse.py"
+ "gui.clj"
+ "core.clj"
+ "cart_test.clj"
+ "paypal_test.clj"
+ "member_test.clj"
+ "deps.edn"
+ "minutes.org"
+ "2020-06-08.org"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/mattk/dev/nparse/" (24566 31065 938234 41000) "helpers/" "LICENSE" "parsers/" "data/" "nparse.py" "../" "./" "nparse_py.spec" "README.md" ".gitignore" ".git/" "nparse.config.json")
+
+ ("/home/mattk/" (24571 14681 556705 329000) ".sqlworkbench/" ".gitconfig" ".cache/" ".mozilla/" ".psensor/" ".emacs.d/" ".profanity.xml" ".Xauthority" "Pictures/" ".rbenv/" ".bash_logout" "samwise-redshift-blue.log" ".oh-my-zsh/" "2020-12-31 11-36-28.mkv" "read_bandwidth.png" "notes" ".m2/" ".aws/" "overheating.txt" ".java/" ".pki/" ".psql_history" ".org-jira/" ".audacity-data/" ".gnome/" ".steam/" "profanity.log" ".wget-hsts" ".gtkrc-2.0" "lola.txt" ".mplayer/" ".xscreensaver" ".pulumi/" ".QtWebEngineProcess/" "Master of Orion/" ".gem/" ".lein/" ".bash_history" "system76-logs.tgz" "scratch/" ".gnupg/" ".PlayOnLinux/" ".zshrc" ".backups/" "Videos/" ".DataGrip2019.3/" ".android/" ".rediscli_history" ".local/" "Desktop/" "FiraxisLive/" ".profile" "bin/" "Templates/" ".shell.pre-oh-my-zsh" ".gconf/" ".IntelliJIdea2019.3/" ".sudo_as_admin_successful" ".kube/" "nvidia-bug-report.log.gz" ".steampath" ".smex-items" ".bashrc" "Public/" ".clojure/" ".zcompdump-onyx-5.7.1" ".pipewire-media-session/" ".var/" "stale_outputs_checked" ".aspell.en.prepl" ".nvm/" "dev/" ".jackdrc" ".docker/" ".zcompdump-onyx-5.8" ".minecraft/" ".steampid" ".zcompdump" "../" ".clojure_history" ".mysql_history" "ssh_host_ed25519_key.pub" ".Xresources" "lapis.pub" ".brz.log" ".nv/" "./" "Downloads/" ".GameGuide/" "mineraft/" ".terraform.d/" ".log/" "wine/" "Music/" ".aspell.en.pws" ".pam_environment" "Minecraft.tar.gz" ".config/" "tmp/" ".npm/" ".cert/" ".icons/" ".nvidia-settings-rc" "lw/" "proxy.sh/" ".lesshst" ".xsession-errors" ".gitlibs/" "Documents/" ".thumbnails/" "PlayOnLinux's virtual drives/" "README.md" ".viminfo" ".cinnamon/" "sec/" "xorg.conf" "2021-01-06 20-10-31.mkv" ".gemrc" ".zsh_history" "wifi-crash.txt" ".node_path" ".wine/" "Games/" ".node-gyp/" ".python_history" ".capsule/" ".ssh/" "xrandr.log" ".dmrc" ".vim/")
+
+ ("/home/mattk/dev/yaqp/src/yaqp/" (24570 10807 719583 723000) "debug.clj" "test.clj" "watcher.clj" "gui.clj" "core.clj" "sh.clj" "example.clj" "../" "./" "parse.clj" "speech.clj")
+
+ ("/home/mattk/dev/yaqp/" (24559 38025 75762 502000) ".nrepl-port" "LICENSE" "test/" "project.clj" "target/" "CHANGELOG.md" "../" "log/" "./" "src/" "tts/" "README.md" ".gitignore" ".git/" "doc/")
+
+ ("/home/mattk/dev/ladders/services/lib/hamilton/test/com/theladders/hamilton/" (24568 43393 332442 884000) "mock_producer.clj" "recruiter_test.clj" "tax_test.clj" "atom_kv.clj" "paypal_test.clj" "batch/" "../" "cart_test.clj" "./" "test_system.clj" "member_test.clj")
+
+ ("/home/mattk/dev/ladders/services/lib/hamilton/src/com/theladders/hamilton/" (24568 43685 56616 480000) "tax.clj" "sandbox.clj" "sql.clj" "hash.clj" "account.clj" "cart.clj" "system.clj" "xml.clj" "core.clj" "batch/" "../" "email.clj" "./" "recruiter.clj" "cache.clj" "worldpay.clj" "subscription.clj" "member.clj" "paypal.clj")
+
+ ("/home/mattk/dev/ladders/services/web/interstellar/test/com/theladders/interstellar/" (24567 30527 276728 318000) "hamilton_test.clj" "thirdpage_test.clj" "resume_test.clj" "common.clj" "prospect_test.clj" "matcha_test.clj" "../" "payment_test.clj" "./" "apply_for_me_test.clj" "sys_fix.clj" "member_test.clj")
+
+ ("/home/mattk/dev/ladders/services/lib/hamilton/" (24564 50334 748155 750000) ".nrepl-port" "Makefile" "Jenkinsfile" "maria/" ".cpcache/" "test/" "lib/" "resources/" "tests.edn" "design/" "dev/" "../" "job.yaml.in" "./" "src/" "README.org" "classes/" ".gitrepo" "Dockerfile" ".gitignore" "deps.edn")
+
+ ("/home/mattk/dev/ladders/services/dev/" (24567 23603 462458 379000) ".nrepl-port" "Makefile" ".cpcache/" "user.clj" "../" "./" "dev.clj" "README.org" "build_deps.clj" "deps.edn")
+
+ ("/home/mattk/dev/ladders/services/" (24564 40266 2097 157000) ".nrepl-port" "Jenkinsfile" "build-all" "maria/" "clone-libs.sh" ".cpcache/" "test/" "lib/" "bin/" "data/" "build" "dev/" "web/" "streams/" "../" "push-libs.sh" "./" "out/" "README.org" "es-data/" "build-changes" ".gitignore" "bootstrap-es.sh" ".git/" "doc/" "deps.edn")
+
+ ("/home/mattk/dev/notebook/ladders-log/weekly/" (24500 32880 172110 410000) "../" "./" "2020-06-08.org" "2020-05-11.org" "2020-05-18.org")
+
+ ("/home/mattk/dev/notebook/ladders-log/" (24555 21552 737692 972000) "sprint_11.org" "jenkins.org" "prometheus.org" "shell.org" "qa_refresh/" "design-review.org" "sprint_24.org" "sprint_7.org" "seo.org" "sprint_22.org" "sprint_2.org" "redshift/" "ladders-ci/" "es_outage_20190715.org" "sprint_25.org" "accelerate.org" "eks-migration/" "systemd-resolv.conf" "elasticsearch.org" "mad-science/" "inside-man-mem/" "interviews/" "vindicia-audit/" "sprint_16.org" "2019-qa4.org" "bin/" "sprint_14.org" "pipeline.org" "ci-cd.org" "sprint_23.org" "ml_aws.org" "services-chapter.org" "rdbms-version.org" "nginx/" "data.org" "sprint_3.org" "weekly/" "es_outage.org" "sprint_19.org" "sprint_26.org" "../" "db-version/" "pulumi/" "./" "systemd-resolv.org" "sprint_10.org" "sprint_1.org" "openvpn.org" "jira/" "kanban.org" ".gitrepo" ".gitignore" "stacks/" "job-promotion-weight.json" "minutes.org" "sprint_4.org" "eks.org" "org-jira/" "spring_18.org")
+
+ ("/home/mattk/.emacs.d/" (24559 37314 186384 68000) "url/" "recentf" "init.el" "elpa/" "#recentf#" "session.1030a294d04592733316082229312197800000023160117" "ido.last" "custom.el" "session.10d5e883c36560ac35160268156929116700000027940116" "session.1031e429c8c4fe4af5159373865087917100000027850119" "../" "transient/" "./" "elpa-20201111.tgz" "session.103f4581c6562b89aa159223531143220900000026540116" "snippets/" "auto-save-list/" ".gitignore" "projectile-bookmarks.eld" ".git/")
+
+ ("/home/mattk/dev/yaqp/src/" (24559 37298 162525 994000) "java/" "../" "./" "yaqp/")
+
+ ("/home/mattk/dev/" (24559 37295 622548 485000) "yt-dlc/" "wmutils/" "safari/" "wine-build/" "redshift/" "purefn/" "AWS-PlantUML/" "eqemu-login-helper/" "switchy/" "gnome-shell-extensions-negesti/" "cedrus-20201111.tgz" "scratch/" "dotfiles/" "nparse.bak/" "youtube-dl/" "plantuml-icon-font-sprites/" "emako-202012/" "react-sortable-tree/" "emako.20200526/" "no-title-bar/" "../" "company-tern/" "./" "tiger/" "nparse/" "birthday/" "cedrus-img/" "emacs/" "ladders/" "jsonnet/" "ring-defaults/" "emako/" "lich/" "yaqp/" "void-passage/" "cedrus/" "elasticsearch-head/" "melpa/" "pixel-saver/" "gnome-shell-extension-appindicator/" "notebook/")
+
+ ("/home/mattk/dev/ladders/samwise/src/com/theladders/samwise/" (24556 40288 793514 478000) "google.clj" "archive.clj" "metrics.clj" "backup.clj" "bootstrap.clj" "compaction.clj" "import.clj" "validation.clj" "dedupe.clj" "refresh.clj" "../" "ddl.clj" "./" "metadata.clj" "replicate.clj" "redshift.clj" "util.clj")
+
+ ("/home/mattk/dev/ladders/services/lib/hamilton/src/com/theladders/hamilton/batch/" (24557 61452 977028 617000) "tax.clj" "debt_collector.clj" "premium.clj" "chargebacks.clj" "common.clj" "account_updater.clj" "validation.clj" "next_billing.clj" "../" "migration.clj" "retries.clj" "./" "debt_producer.clj" "account_updater/")
+
+ ("/home/mattk/dev/ladders/infrastructure/eks/Pulumi/" (24558 14599 156981 606000) "Pulumi.qa-red.yaml" "logdna.ts" "maxwell.ts" "vpn-server.ts" "cluster-autoscaler.ts" "package-lock.json" "Pulumi.qa-green.yaml" "maxwell.log" "node_modules/" "resources/" "namespaces.ts" "k8s-dashboard.ts" "eks-cluster.ts" "rds.ts" "kafka-mgr.ts" "../" "ingress.ts" "Pulumi.prod-red.yaml" "vpa/" "./" "vpa.ts" "jenkins.ts" "README.org" "Pulumi.yaml" "package.json" ".gitignore" "index.ts" ".idea/" "tsconfig.json")
+
+ ("/home/mattk/dev/ladders/infrastructure/eks/Pulumi/.idea/" (24538 35911 102736 63000) "vcs.xml" "workspace.xml" "Pulumi.iml" "modules.xml" "../" "./")
+
+ ("/home/mattk/dev/ladders/leone/" (24556 40895 817171 524000) "Jenkinsfile" "cronjobs/" "deployments/" "scripts/" "streams_apps/" "../" "./" "README.org" ".gitignore" "services/" ".git/")
+
+ ("/home/mattk/dev/ladders/samwise/src/com/theladders/" (24530 28390 252297 426000) "samwise.clj" "../" "samwise/" "./")
+
+ ("/home/mattk/dev/ladders/samwise/src/com/" (24530 28390 252297 426000) "../" "./" "theladders/")
+
+ ("/home/mattk/dev/ladders/samwise/src/" (24530 28390 252297 426000) "com/" "../" "./")
+
+ ("/home/mattk/dev/ladders/samwise/" (24530 28390 256297 706000) "Makefile" "Jenkinsfile" "test/" "resources/" "entrypoint.sh" "bin/" "dev/" "../" "job.yaml.in" "./" "src/" "README.org" "CODEOWNERS" "sql/" "Dockerfile" ".gitignore" "driver/" ".git/" "doc/" "deps.edn" "parkway/")
+
+ ("/home/mattk/dev/ladders/services/lib/pennyworth/src/com/theladders/pennyworth/cashbox/" (24263 64365 740222 567000) "protocol.clj" "../" "./")
+
+ ("/home/mattk/dev/ladders/services/lib/pennyworth/src/com/theladders/pennyworth/" (24481 39054 15252 306000) "batch.clj" "retry.clj" "server.clj" "common.clj" "member/" "applepay.clj" "api.clj" "applepay/" "system.clj" "cashbox/" "cashbox.clj" "batch/" "../" "./" "cache.clj" "member.clj" "paypal.clj" "rest.clj")
+
+ ("/home/mattk/dev/ladders/services/lib/pennyworth/src/com/theladders/" (24263 64365 740222 567000) "pennyworth/" "../" "./")
+
+ ("/home/mattk/dev/ladders/services/lib/pennyworth/src/com/" (24263 64365 740222 567000) "../" "./" "theladders/")
+
+ ("/home/mattk/dev/ladders/services/lib/pennyworth/src/" (24263 64365 740222 567000) "com/" "../" "./")
+
+ ("/home/mattk/dev/ladders/services/lib/pennyworth/" (24501 20225 750894 14000) "Makefile" "job.yaml" "Jenkinsfile" ".cpcache/" "resources/" "target/" "dev/" "../" "./" "src/" "README.org" "classes/" "sql/" "Dockerfile" ".gitignore" "doc/" "deps.edn")
+
+ ("/home/mattk/dev/ladders/config/env/local/configs/" (24554 8893 34883 307000) "es-import.json" "recruiter-blog.json" "resume-redaction.json" "s3-sandbox.json" "elasticsearch-rec.json" "mysql-hamilton.json" "aws-couchbase.json" "sendwithus.json" "email-alias.json" "mysql-zip.json" "ladders-admin.json" "ingress.json" "proxy-bonanza.json" "email-pipelines.json" "verification-codes.json" "mysql-super.json" "publication.json" "lever.json" "autobill-audit.json" "email-template-to-email-type.json" "elasticsearch6.json" "rds.json" "email-relay.json" "hitch.json" "lw-tracking-db.json" "rashomon.json" "company-referral-bonus.json" "public-profile.json" "redis5.json" "kafka.json" "worldpay.json" "email-list-generator.json" "publication-indexer.json" "admin-auth.json" "job-ops.json" "crawler.json" "resume.json" "gender-api.json" "greenhouse.json" "park.json" "email-validation.json" "shopify.json" "ftp.json" "kafka-v200.json" "workable.json" "clamav.json" "redis.json" "s3.json" "maria-dr.json" "smartnews.json" "google.json" "sendgrid-email-alias.json" "expirable-tokens.json" "taxjar.json" "recruit-app.json" "maria-rds.json" "static-data.json" "applepay.json" "kurosawa.json" "notifications.json" "cloudfront.json" "../" "paypal.json" "vindicia.json" "slack.json" "sendgrid-batch.json" "rec-ss-exclusions.json" "./" "lw.json" "resume-attachment-parser.json" "recruiter-auth.json" "email-auto-renew.json" "mysql.json" "lambda.json" "nedry.json" "couchbase.json" "elasticsearch.json" "job-promotion-weight.json" "sendgrid.json" "prometheus.json" "redshift.json" "lw-maria.json" "nanonets.json" "marketo.json")
+
+ ("/home/mattk/dev/ladders/services/lib/hamilton/dev/" (24554 9248 131370 124000) "paypal_migration.clj" "user.clj" "../" "./" "dev.clj")
+
+ ("/home/mattk/dev/ladders/config/dec/" (24554 8829 33329 744000) "broadway.json" "mysql-monitor.json" "deepcrawl.json" "s3-sandbox.json" "maria-bi.json" "mariadb-backup.json" "mysql-hamilton.json" "aws-couchbase.json" "send-with-us.json" "sendwithus.json" "logdna.json" "mysql-zip.json" "couchbase-backup.json" "mailgun.json" "broadway-simon.json" "proxy-bonanza.json" "appcast.json" "mysql-super.json" "broadway-ro.json" "github-auth.json" "simon.json" "rds.json" "lw-tracking-db.json" "tableau.json" "s3-secure.json" "maxwell.json" "worldpay.json" "admin-auth.json" "mysql-schema.json" "gender-api.json" "greenhouse.json" "park.json" "shopify.json" "ftp.json" "clamav.json" "s3.json" "maria-dr.json" "couchbase-admin.json" "sendgrid-email-alias.json" "webtoken.json" "taxjar.json" "redshfit.json" "recruit-app.json" "resume-9.json" "ip2location.json" "applepay.json" "lw-secure-access.json" "cloudfront.json" "../" "paypal.json" "mclovin.json" "vindicia.json" "sendgrid-webhooks.json" "sendgrid-batch.json" "vpn-user.json" "./" "bireports-gmail.json" "recruiter-auth.json" "reshift.json" "finviz.json" "mysql.json" "couchbase.json" "facebook.json" "aws.json" "google-docs.json" "sendgrid.json" "redshift.json" "legacy-park.json" "nanonets.json" "marketo.json")
+
+ ("/home/mattk/dev/ladders/config/bin/" (24554 5169 476697 501000) "encrypt-all.sh" "export-k8s.sh" "decrypt-one.sh" "legacy-k8s-config-export" "decrypt-all.sh" "../" "encrypt-one.sh" "./" "replace.sh" "legacy-k8s-secrets-export.rb")
+
+ ("/home/mattk/dev/dotfiles/keys/ladders/" (24554 3401 202452 528000) "hamilton" ".#taxjar" "jtilles.pem" "dbadmin1" "mkocubinski.pem" "redshift-env.el" "ladders-ci" "maria" "jenkins.txt" "sovren" "redshift-qa.env" "github-jenkins" "ssh/" "ladders-prod-vpn.pem" "redshift.env" "production_creds.asc" "web" "../" "ladders-pulumi-token.txt" "jenkins" "theladders-production.pem" "./" "github-oauth" "ladders-pulumi-github-recovery-codes.txt" "jira" "taxjar" "#taxjar#" "vindicia" "redshift-staging.env")
+
+ ("/home/mattk/dev/ladders/concorde/" (24240 27882 398522 779000) "test/" "project.clj" "data/" "dev/" "CHANGELOG.md" "../" "./" "src/" "README.md" ".gitignore" ".git/" "deps.edn")
+
+ ("/home/mattk/dev/notebook/ladders-log/ladders-ci/" (24554 2902 772179 414000) "id_rsa.pub" "../" "./" "id_rsa.encrypted" "github-creds.txt.encrypted" "taxjar" "github-recovery-codes.txt.encrypted")
+
+ ("/home/mattk/dev/ladders/services/data/" (24554 2763 861648 536000) ".nrepl-port" "Makefile" "uuid" ".cpcache/" "docker/" "block_open.sh" "assert_tag.sh" "es-data.tgz" "dev/" "../" "./" "src/" "README.org" "local-maria.env" "local-maria.el" ".gitignore" "deps.edn" "kafka-compose.yaml")
+
+ ("/etc/" (24552 7495 585609 87000) "apparmor/" "resolvconf/" "group-" "hosts.allow" "gtk-3.0/" "debian_version" "locale.gen" "vconsole.conf" "sudoers" "io.elementary.appcenter/" "crontab" "xattr.conf" "legal" "ethertypes" "manpath.config" "mplayer/" "gnome-app-install/" "rc5.d/" "libreoffice/" "python/" ".pwd.lock" "rc2.d/" "rc6.d/" "hddtemp.db" "sysctl.conf" "hostname" "OpenCL/" "shadow-" "networkd-dispatcher/" "machine-info" "cron.hourly/" "ca-certificates.conf.dpkg-old" "menu-methods/" "libibverbs.d/" "group" "lvm/" "redis/" "usb_modeswitch.conf" "mpv/" "wpa_supplicant/" "timidity/" "ld.so.conf.d/" "brlapi.key" "apparmor.d/" "texmf/" "resolv.conf" "ifplugd/" "apt/" "ca-certificates.conf" "at.deny" ".java/" "perl/" "bash_completion" "sudoers.d/" "thermald/" "mtab" "insserv.conf.d/" "qemu-ifdown" "mysql/" "openvpn/" "lsb-release.diverted" "sudo.conf" "binfmt.d/" "bash.bashrc" "alsa/" "modprobe.d/" "dleyna-server-service.conf" "dictionaries-common/" "cups/" "request-key.d/" "mailcap" "libblockdev/" "pop-os/" "gimp/" "environment.d/" "systemd/" "ltrace.conf" "cron.daily/" "vtrgb" "apache2/" "pm/" "java-8-openjdk/" "pam.d/" "apport/" "legal.diverted" "docker/" "ghostscript/" "brltty.conf" "modules" "fstab.bak" "request-key.conf" "init/" "ufw/" "chatscripts/" "fuse.conf" "netplan/" "pipewire/" "gnome/" "logrotate.d/" "libao.conf" "geoclue/" "rc3.d/" "acpi/" "fprintd.conf" "ucf.conf" "ldap/" "python3.7/" "popularity-contest.conf" "iproute2/" "guest-session/" "libpaper.d/" "profile.d/" "bindresvport.blacklist" "grub.d/" "rsyslog.d/" "fstab" "initramfs/" "ipp-usb/" "openal/" "maven/" "rmt" "kernel/" "cron.weekly/" "mdadm/" "dpkg/" "host.conf" "depmod.d/" "ssh/" "lighttpd/" "debconf.conf" "dkms/" "console-setup/" "appstream.conf" "rc4.d/" "sysctl.conf.dpkg-dist" "environment" "passwd" "pcmcia/" "os-release.diverted" "PackageKit/" "ubuntu-advantage/" "fwupd/" "update-motd.d/" "sensors.d/" "pnm2ppa.conf" "cryptsetup-initramfs/" "login.defs" "qemu-ifup" "issue.net" "su-to-rootrc" "subuid" "libaudit.conf" "inputrc" "sudo_logsrvd.conf" "calendar/" "logrotate.conf" "magic.mime" "passwd-" "inxi.conf" "rsyslog.conf" "gai.conf" "groff/" "tmpfiles.d/" "gshadow" "rc0.d/" "hosts" "rpc" "lsb-release" "gconf/" "gdm3/" "jackrc" "mke2fs.conf" "vim/" "rcS.d/" "xml/" "prime-discrete" "udev/" "chromium/" "newt/" "sensors3.conf" "brltty/" "networks" "java-11-openjdk/" "ca-certificates/" "X11/" "os-release" "cracklib/" "openni2/" "sysctl.d/" "zsh_command_not_found" "cupshelpers/" "cron.monthly/" "init.d/" "pam.conf" "polkit-1/" "initramfs-tools/" "shadow" "ld.so.cache" "firefox/" "magic" "wgetrc" "mailcap.order" "network/" "nanorc" "kernelstub/" "netconfig" "opt/" "ImageMagick-6/" "apg.conf" "glvnd/" "subuid-" "gnome-system-tools/" "deluser.conf" "e2scrub.conf" "zsh/" "gshadow-" "logcheck/" "emacs/" "dnsmasq.d-available/" "ssl/" "libnl-3/" "modules-load.d/" "papersize" "python3/" "sgml/" "snmp/" "speech-dispatcher/" "pulse/" "fonts/" "avahi/" "issue.diverted" "alternatives/" "menu/" "protocols" "gtk-2.0/" "locale.alias" "vdpau_wrapper.cfg" "timezone" "pki/" "rygel.conf" "subgid-" "dconf/" "subgid" "UPower/" "python2.7/" "dbus-1/" "terminfo/" "issue" "dhcp/" "selinux/" "rc1.d/" "lightdm/" "ld.so.conf" "issue.net.diverted" "hdparm.conf" "postgresql-common/" "skel/" "usb_modeswitch.d/" "bash_completion.d/" "lxc/" "adduser.conf" "services" "cron.d/" "security/" "profile" "shells" "hosts.deny" "udisks2/" "gss/" "machine-id" "default/" "xdg/" "mime.types" "apm/" "update-manager/" "python3.8/" "bluetooth/" "NetworkManager/" "nsswitch.conf" "ppp/" "sane.d/" "vulkan/" "localtime" "crypttab" "dnsmasq.d/" "../" "./")
+
+ ("/home/mattk/dev/wine-build/src/wine-5.0/" (24552 6780 881964 287000) "include/" "aclocal.m4" "COPYING.LIB" "Makefile" "config.log" "programs/" "LICENSE" "tools/" "LICENSE.OLD" ".mailmap" "libs/" "loader/" "configure" "debian/" "Makefile.in" "dlls/" "config.status" "po/" "documentation/" "VERSION" "README" "../" "ANNOUNCE" "MAINTAINERS" "./" "wine" "fonts/" "configure.ac" ".editorconfig" "server/" ".gitignore" ".pc/" "autom4te.cache/" "AUTHORS")
+
+ ("/home/mattk/dev/wine-build/src/" (24552 7077 204213 33000) "libwine_5.0-3ubuntu1_i386.deb" "wine32-dbgsym_5.0-3ubuntu1_i386.deb" "wine_5.0-3ubuntu1.debian.tar.xz" "wine_5.0-3ubuntu1.dsc" "wine32_5.0-3ubuntu1_i386.deb" "wine-5.0.orig/" "fonts-wine_5.0-3ubuntu1_all.deb" "wine32-preloader-dbgsym_5.0-3ubuntu1_i386.deb" "wine-5.0/" "wine_5.0-3ubuntu1_i386.changes" "libwine-dbgsym_5.0-3ubuntu1_i386.deb" "wine_5.0-3ubuntu1_all.deb" "wine_5.0.orig.tar.xz" "wine32-preloader_5.0-3ubuntu1_i386.deb" "wine-5.0.patched/" "wine32-tools_5.0-3ubuntu1_i386.deb" "../" "wine_5.0-3ubuntu1_i386.buildinfo" "wine-binfmt_5.0-3ubuntu1_all.deb" "./" "libwine-dev_5.0-3ubuntu1_i386.deb" "wine32-tools-dbgsym_5.0-3ubuntu1_i386.deb")
+
+ ("/home/mattk/dev/wine-build/src/wine-5.0.patched/" (24552 6727 899142 926000) "include/" "aclocal.m4" "COPYING.LIB" "programs/" "LICENSE" "tools/" "LICENSE.OLD" ".mailmap" "libs/" "loader/" "debian/" "Makefile.in" "dlls/" "po/" "documentation/" "VERSION" "README" "../" "ANNOUNCE" "MAINTAINERS" "./" "fonts/" "configure.ac" ".editorconfig" "server/" ".pc/" "AUTHORS")
+
+ ("/home/mattk/dev/wine-build/src/wine-5.0/dlls/kernel32/" (24552 6887 979737 943000) "toolhelp.c" "virtual.o" "actctx.c" "locale.o" "sync.o" "sync.c" "winerror.res" "module.c" "Makefile" "volume.c" "version.c" "term.c" "nameprep.c" "winerror.mc" "environ.c" "debugger.c" "virtual.c" "atom.o" "path.o" "toolhelp.o" "term.o" "process.o" "powermgnt.c" "comm.c" "Makefile.in" "comm.o" "actctx.o" "volume.o" "computername.c" "locale_rc.res" "locale.c" "console_private.h" "kernel_private.h" "locale_rc.rc" "debugger.o" "path.c" "powermgnt.o" "wer.o" "string.c" "console.o" "cpu.c" "nls/" "cpu.o" "time.o" "computername.o" "editline.o" "kernel32.dll.fake" "lcformat.o" "nameprep.o" "libkernel32.def" "thread.c" "format_msg.c" "../" "tape.o" "console.c" "environ.o" "heap.c" "./" "string.o" "kernel_main.c" "profile.c" "file.c" "lzexpand.c" "lcformat.c" "tests/" "format_msg.o" "resource.o" "wer.c" "profile.o" "file.o" "process.c" "resource.c" "kernel32.dll.so" "time.c" "editline.c" "kernel_main.o" "version.o" "kernel32.spec" "thread.o" "module.o" "lzexpand.o" "version.res" "heap.o" ".gitignore" "tape.c" "atom.c" "version.rc")
+
+ ("/home/mattk/dev/wine-build/src/wine-5.0/dlls/shell32/" (24552 6977 250018 17000) "appbar.c" "pidl.h" "shfldr_unixfs.o" "shell32.manifest" "dialogs.o" "appbar.o" "cpanelfolder.c" "libshell32.def" "Makefile" "shfldr_printers.o" "recyclebin.o" "shellreg.c" "brsfolder.c" "enumidlist.c" "shfldr_mycomp.c" "enumidlist.o" "shlexec.c" "xdg.h" "shelllink.c" "brsfolder.o" "assoc.c" "control.c" "undocshell.h" "dataobject.o" "shellord.c" "shellpath.c" "pidl.c" "ebrowser.o" "shell32_classes_r.res" "shellreg.o" "resources/" "shfldr_fs.c" "debughlp.o" "iconcache.o" "Makefile.in" "shlexec.o" "changenotify.o" "shfldr_desktop.c" "shellole.o" "shlview.c" "classes.c" "shell32_tlb_t.res" "shlview_cmenu.c" "shfldr_netplaces.c" "shpolicy.o" "shell32.spec" "dialogs.c" "shellfolder.h" "pidl.o" "iconcache.c" "assoc.o" "shell32.dll.fake" "shell32_main.o" "folders.c" "shellole.c" "shlview_cmenu.o" "dragdrophelper.o" "shellstring.o" "shlmenu.c" "shlmenu.o" "dde.o" "shelllink.o" "systray.o" "autocomplete.c" "../" "trash.o" "clipboard.o" "shellitem.o" "shellord.o" "./" "shfldr_unixfs.c" "shell32.rgs" "xdg.o" "cpanelfolder.o" "shlfileop.c" "shlfileop.o" "shell32.dll.so" "shfldr_fs.o" "xdg.c" "shlfolder.c" "dataobject.c" "dragdrophelper.c" "shell32_classes.idl" "shfldr_printers.c" "tests/" "shelldispatch.c" "dde.c" "debughlp.c" "shfldr_mycomp.o" "trash.c" "changenotify.c" "folders.o" "shfldr_desktop.o" "shlfsbind.c" "shellstring.c" "shell32_main.h" "shlfolder.o" "shfldr.h" "ebrowser.c" "cpanel.h" "systray.c" "shfldr_netplaces.o" "shellpath.o" ".gitignore" "recyclebin.c" "shlfsbind.o" "autocomplete.o" "shell32.res" "shelldispatch.o" "shell32_main.c" "shell32_tlb.idl" "shpolicy.c" "shlview.o" "clipboard.c" "debughlp.h" "shresdef.h" "version.h" "control.o" "classes.o" "shellitem.c" "shell32.rc")
+
+ ("/home/mattk/dev/dotfiles/keys/" (24058 35288 105019 10000) "../" "./" "aws-mkocubinski.pem" "ladders/" "github")
+
+ ("/home/mattk/dev/dotfiles/" (24551 44634 133003 51000) "kube/" "keys/" "openvpn/" "aws/" "bin/" "tokens.env" "logdna-webhook/" "i3" "../" "./" "webtoken.yaml" "Xresources" "vindicia/" ".git/" "proxysql/" "zshrc")
+
+ ("/home/mattk/dev/wine-build/" (24554 1002 30542 422000) "Makefile" "builder/" "mouse.patch" "README" "../" "./" "src/" ".gitignore" ".git/")
+
+ ("/home/mattk/dev/wine-build/builder/" (24552 6494 129136 683000) "Dockerfile.in" "../" "./" "Dockerfile")
+
+ ("/home/mattk/dev/wine-build/src/wine-5.0/dlls/" (24552 3990 466252 585000) "api-ms-win-core-shutdown-l1-1-0/" "api-ms-win-core-psapi-obsolete-l1-1-0/" "pdh/" "url/" "wineandroid.drv/" "mfmediaengine/" "msvfw32/" "npmshtml/" "api-ms-win-mm-misc-l1-1-1/" "api-ms-win-core-bem-l1-1-0/" "ole2prox.dll16/" "usbd.sys/" "api-ms-win-crt-environment-l1-1-0/" "api-ms-win-core-apiquery-l1-1-0/" "winnls32/" "ext-ms-win-ntuser-message-l1-1-0/" "wmiutils/" "d3dx9_42/" "olesvr.dll16/" "shlwapi/" "msvcrt40/" "dxguid/" "api-ms-win-core-synch-ansi-l1-1-0/" "netcfgx/" "api-ms-win-eventing-provider-l1-1-0/" "api-ms-win-gdi-dpiinfo-l1-1-0/" "msvcp71/" "d3dcompiler_42/" "api-ms-win-core-string-obsolete-l1-1-0/" "clusapi/" "hnetcfg/" "cryptdlg/" "msvcr80/" "ext-ms-win-ntuser-window-l1-1-1/" "ext-ms-win-authz-context-l1-1-0/" "sound.drv16/" "ext-ms-win-gdi-draw-l1-1-0/" "api-ms-win-devices-config-l1-1-1/" "irprops.cpl/" "api-ms-win-rtcore-ntuser-draw-l1-1-0/" "api-ms-win-core-datetime-l1-1-1/" "crtdll/" "winehid.sys/" "faultrep/" "ext-ms-win-ntuser-misc-l1-5-1/" "cfgmgr32/" "api-ms-win-eventing-consumer-l1-1-0/" "msvcp100/" "api-ms-win-core-errorhandling-l1-1-0/" "glu32/" "d3dx9_25/" "api-ms-win-mm-mme-l1-1-0/" "updspapi/" "api-ms-win-core-io-l1-1-0/" "d3dx9_30/" "d3drm/" "d3d10core/" "msvidc32/" "wpcap/" "twain_32/" "msacm.dll16/" "ddeml.dll16/" "ext-ms-win-rtcore-ntuser-dpi-l1-2-0/" "api-ms-win-core-fibers-l1-1-0/" "api-ms-win-appmodel-runtime-l1-1-2/" "spoolss/" "w32skrnl/" "d3dcompiler_33/" "vdmdbg/" "dsquery/" "msnet32/" "atl90/" "wmphoto/" "win87em.dll16/" "slc/" "hal/" "dpwsockx/" "windowscodecs/" "ext-ms-win-ntuser-window-l1-1-0/" "mstask/" "d3dx9_24/" "ext-ms-win-gdi-dc-create-l1-1-1/" "ext-ms-win-ntuser-windowclass-l1-1-1/" "api-ms-win-core-delayload-l1-1-0/" "d3dx9_39/" "rsaenh/" "vulkan-1/" "vnetbios.vxd/" "riched20/" "browseui/" "wpc/" "winecrt0/" "ext-ms-win-gdi-draw-l1-1-1/" "msvcr71/" "api-ms-win-core-wow64-l1-1-1/" "localui/" "api-ms-win-core-appinit-l1-1-0/" "api-ms-win-core-localization-obsolete-l1-2-0/" "api-ms-win-core-winrt-error-l1-1-0/" "vdhcp.vxd/" "avicap32/" "api-ms-win-core-namedpipe-l1-1-0/" "x3daudio1_3/" "tdi.sys/" "msg711.acm/" "api-ms-win-core-sysinfo-l1-2-0/" "dmoguids/" "cryptui/" "winspool.drv/" "ole2thk.dll16/" "windowscodecsext/" "winevulkan/" "api-ms-win-ntuser-sysparams-l1-1-0/" "api-ms-win-core-file-l2-1-1/" "ext-ms-win-ntuser-mouse-l1-1-0/" "esent/" "api-ms-win-core-libraryloader-l1-1-0/" "gdi32/" "regapi/" "wimgapi/" "msctf/" "serialui/" "xpssvcs/" "uuid/" "api-ms-win-core-windowserrorreporting-l1-1-0/" "api-ms-win-core-processthreads-l1-1-3/" "display.drv16/" "api-ms-win-core-localization-l2-1-0/" "libwinspool.def" "api-ms-win-core-threadpool-private-l1-1-0/" "strmbase/" "msadp32.acm/" "mountmgr.sys/" "combase/" "api-ms-win-core-threadpool-l1-1-0/" "xaudio2_1/" "dmsynth/" "msxml3/" "usp10/" "wshom.ocx/" "wnaspi32/" "x3daudio1_6/" "api-ms-win-mm-joystick-l1-1-0/" "typelib.dll16/" "itircl/" "softpub/" "comsvcs/" "comctl32/" "dssenh/" "msvcrtd/" "wtsapi32/" "api-ms-win-appmodel-runtime-l1-1-1/" "msdmo/" "ext-ms-win-oleacc-l1-1-0/" "api-ms-win-core-localization-obsolete-l1-3-0/" "activeds/" "msftedit/" "msvcirt/" "xaudio2_6/" "api-ms-win-core-realtime-l1-1-0/" "olecli.dll16/" "api-ms-win-core-winrt-l1-1-0/" "dplayx/" "xapofx1_1/" "libd3dcompiler.def" "wineqtdecoder/" "ext-ms-win-ntuser-windowclass-l1-1-0/" "kernel32/" "imm32/" "winsta/" "svrapi/" "api-ms-win-power-setting-l1-1-0/" "kernelbase/" "api-ms-win-rtcore-ntuser-private-l1-1-4/" "api-ms-win-security-grouppolicy-l1-1-0/" "d3dx11_43/" "schannel/" "iprop/" "api-ms-win-core-datetime-l1-1-0/" "api-ms-win-core-io-l1-1-1/" "api-ms-win-core-wow64-l1-1-0/" "msimg32/" "gphoto2.ds/" "rsabase/" "d3dx9_33/" "ntdll/" "msvcm90/" "api-ms-win-core-localization-l1-2-0/" "mmdevldr.vxd/" "api-ms-win-core-memory-l1-1-2/" "xaudio2_3/" "wintab.dll16/" "inetmib1/" "api-ms-win-shell-shellcom-l1-1-0/" "ext-ms-win-ntuser-gui-l1-3-0/" "sfc/" "api-ms-win-core-threadpool-legacy-l1-1-0/" "mmdevapi/" "xapofx1_5/" "api-ms-win-appmodel-identity-l1-1-0/" "api-ms-win-core-libraryloader-l1-2-2/" "libd3dx9.def" "uiribbon/" "wing32/" "msvcp90/" "x3daudio1_0/" "unicows/" "stdole2.tlb/" "version/" "api-ms-win-core-toolhelp-l1-1-0/" "ctl3dv2.dll16/" "api-ms-win-core-sidebyside-l1-1-0/" "api-ms-win-core-processthreads-l1-1-1/" "inetcpl.cpl/" "api-ms-win-core-shlwapi-legacy-l1-1-0/" "api-ms-win-security-lsalookup-l1-1-0/" "api-ms-win-crt-private-l1-1-0/" "api-ms-win-core-localization-l1-1-0/" "api-ms-win-security-provider-l1-1-0/" "kerberos/" "wmi/" "x3daudio1_5/" "api-ms-win-shcore-stream-l1-1-0/" "msgsm32.acm/" "mscat32/" "d3dx9_31/" "msvcp110/" "monodebg.vxd/" "appwiz.cpl/" "qmgrprxy/" "api-ms-win-core-crt-l1-1-0/" "pidgen/" "libd3dx11.def" "taskschd/" "mf3216/" "dnsapi/" "api-ms-win-downlevel-shell32-l1-1-0/" "api-ms-win-core-file-l1-2-0/" "atl100/" "msident/" "d3dcompiler_36/" "dsdmo/" "api-ms-win-core-profile-l1-1-0/" "api-ms-win-core-com-private-l1-1-0/" "dxerr8/" "api-ms-win-core-memory-l1-1-0/" "feclient/" "wininet/" "winepulse.drv/" "ext-ms-win-rtcore-gdi-rgn-l1-1-0/" "odbcbcp/" "api-ms-win-core-timezone-l1-1-0/" "commdlg.dll16/" "xinput1_3/" "tzres/" "mscorwks/" "imaadp32.acm/" "api-ms-win-ntuser-rectangle-l1-1-0/" "apphelp/" "api-ms-win-core-version-l1-1-1/" "msvcr120/" "msacm32.drv/" "atl80/" "ole2.dll16/" "user32/" "winemac.drv/" "api-ms-win-core-localization-l1-2-1/" "xaudio2_0/" "shdocvw/" "d3d10_1/" "ext-ms-win-rtcore-ntuser-sysparams-l1-1-0/" "mciavi32/" "dinput/" "api-ms-win-core-registryuserspecific-l1-1-0/" "vcomp100/" "strmdll/" "api-ms-win-service-core-l1-1-0/" "http.sys/" "d3dx10_42/" "vcomp90/" "dbgeng/" "api-ms-win-core-localregistry-l1-1-0/" "ext-ms-win-dwmapi-ext-l1-1-0/" "dispex/" "cryptdll/" "api-ms-win-core-processthreads-l1-1-0/" "dpnaddr/" "odbccu32/" "wined3d/" "msvcm80/" "x3daudio1_1/" "ntoskrnl.exe/" "api-ms-win-rtcore-ntuser-wmpointer-l1-1-3/" "d3dx9_40/" "mmcndmgr/" "d3d8/" "virtdisk/" "userenv/" "oledlg/" "qcap/" "ieframe/" "mcicda/" "api-ms-win-security-lsalookup-l2-1-1/" "photometadatahandler/" "api-ms-win-core-heap-l1-1-0/" "wsdapi/" "ole2disp.dll16/" "bthprops.cpl/" "wmasf/" "xapofx1_4/" "api-ms-win-rtcore-ntuser-window-l1-1-0/" "winex11.drv/" "olethk32/" "scrobj/" "ext-ms-win-rtcore-ntuser-rawinput-l1-1-0/" "api-ms-win-core-winrt-roparameterizediid-l1-1-0/" "api-ms-win-core-namedpipe-l1-2-0/" "odbc32/" "wmvcore/" "xpsprint/" "schedsvc/" "libusbd.def" "d3dx9_32/" "msacm32/" "ext-ms-win-gdi-devcaps-l1-1-0/" "api-ms-win-security-base-private-l1-1-1/" "dplay/" "api-ms-win-core-file-l2-1-0/" "d3dx9_34/" "api-ms-win-ntuser-dc-access-l1-1-0/" "rasapi32/" "vnbt.vxd/" "vtdapi.vxd/" "httpapi/" "atmlib/" "api-ms-win-core-file-l1-1-0/" "api-ms-win-core-processthreads-l1-1-2/" "mapi32/" "dxdiagn/" "api-ms-win-core-interlocked-l1-1-0/" "jsproxy/" "winscard/" "winaspi.dll16/" "prntvpt/" "msls31/" "mf/" "olepro32/" "ext-ms-win-rtcore-ntuser-dpi-l1-1-0/" "dhtmled.ocx/" "nddeapi/" "dmime/" "avifil32/" "d3dx10_37/" "d3dcompiler_47/" "ext-ms-win-uxtheme-themes-l1-1-0/" "winealsa.drv/" "libhtmlhelp.def" "d3dcompiler_39/" "ntprint/" "api-ms-win-eventlog-legacy-l1-1-0/" "ntdsapi/" "ext-ms-win-ntuser-misc-l1-2-0/" "midimap/" "imagehlp/" "acledit/" "l3codeca.acm/" "ext-ms-win-rtcore-ntuser-cursor-l1-1-0/" "ext-ms-win-shell-comctl32-init-l1-1-0/" "gdiplus/" "scarddlg/" "api-ms-win-core-job-l1-1-0/" "mfuuid/" "vwin32.vxd/" "psapi/" "api-ms-win-core-version-private-l1-1-0/" "mshtml.tlb/" "api-ms-win-security-audit-l1-1-1/" "keyboard.drv16/" "api-ms-win-core-interlocked-l1-2-0/" "ext-ms-win-gdi-dc-l1-2-0/" "mlang/" "x3daudio1_2/" "inkobj/" "slbcsp/" "winecoreaudio.drv/" "api-ms-win-crt-multibyte-l1-1-0/" "ext-ms-win-ntuser-gui-l1-1-0/" "api-ms-win-shcore-thread-l1-1-0/" "qwave/" "api-ms-win-core-url-l1-1-0/" "dmstyle/" "msrle32/" "ifsmgr.vxd/" "api-ms-win-core-psapi-ansi-l1-1-0/" "win32s16.dll16/" "api-ms-win-core-processtopology-obsolete-l1-1-0/" "quartz/" "xapofx1_3/" "vbscript/" "ext-ms-win-gdi-font-l1-1-1/" "packager/" "api-ms-win-downlevel-normaliz-l1-1-0/" "rasdlg/" "winusb/" "query/" "inetcomm/" "uianimation/" "xaudio2_2/" "api-ms-win-service-winsvc-l1-2-0/" "windebug.dll16/" "msvcp120/" "api-ms-win-core-stringloader-l1-1-1/" "xaudio2_7/" "api-ms-win-core-quirks-l1-1-0/" "ole2nls.dll16/" "msvcr120_app/" "d3dcompiler_43/" "winnls.dll16/" "icmp/" "mferror/" "api-ms-win-core-shlwapi-obsolete-l1-1-0/" "vcomp120/" "winejoystick.drv/" "d3d10/" "dmusic32/" "api-ms-win-security-lsalookup-l2-1-0/" "system.drv16/" "api-ms-win-core-util-l1-1-0/" "api-ms-win-core-job-l2-1-0/" "api-ms-win-core-version-l1-1-0/" "gpkcsp/" "fntcache/" "api-ms-win-security-sddl-l1-1-0/" "mscoree/" "fwpuclnt/" "mp3dmod/" "mtxdm/" "jscript/" "d3dx10_38/" "libntoskrnl.def" "msvcp120_app/" "api-ms-win-core-file-l1-2-1/" "api-ms-win-downlevel-shlwapi-l2-1-0/" "d3dx9_35/" "advpack/" "msdelta/" "wiaservc/" "ncrypt/" "api-ms-win-core-winrt-string-l1-1-0/" "api-ms-win-core-string-l1-1-0/" "mmsystem.dll16/" "sfc_os/" "gdi.exe16/" "samlib/" "ctapi32/" "setupapi/" "api-ms-win-rtcore-ntuser-winevent-l1-1-0/" "vcomp140/" "wineps16.drv16/" "ver.dll16/" "api-ms-win-core-comm-l1-1-0/" "comcat/" "mciqtz32/" "msasn1/" "api-ms-win-service-private-l1-1-1/" "d3dcompiler_38/" "shcore/" "ext-ms-win-ntuser-draw-l1-1-0/" "api-ms-win-core-processenvironment-l1-2-0/" "ksuser/" "msxml4/" "mprapi/" "api-ms-win-core-path-l1-1-0/" "api-ms-win-core-namespace-l1-1-0/" "xaudio2_8/" "api-ms-win-core-winrt-registration-l1-1-0/" "ext-ms-win-rtcore-gdi-object-l1-1-0/" "ext-ms-win-kernel32-package-l1-1-1/" "msvcr100/" "api-ms-win-core-file-l2-1-2/" "api-ms-win-core-misc-l1-1-0/" "d3dcompiler_34/" "rpcrt4/" "mouse.drv16/" "toolhelp.dll16/" "traffic/" "dpnhpast/" "msimtf/" "xolehlp/" "uiautomationcore/" "hidclass.sys/" "x3daudio1_4/" "api-ms-win-core-synch-l1-1-0/" "difxapi/" "xaudio2_4/" "api-ms-win-core-shlwapi-obsolete-l1-2-0/" "x3daudio1_7/" "tdh/" "msports/" "olesvr32/" "mpr/" "cabinet/" "t2embed/" "api-ms-win-shell-shellfolders-l1-1-0/" "api-ms-win-core-com-l1-1-0/" "d3dx10_43/" "xaudio2_5/" "d3dx9_27/" "api-ms-win-core-errorhandling-l1-1-1/" "api-ms-win-core-kernel32-private-l1-1-1/" "scrrun/" "fltlib/" "dmusic/" "vcomp/" "api-ms-win-core-winrt-errorprivate-l1-1-1/" "api-ms-win-service-management-l2-1-0/" "api-ms-win-core-normalization-l1-1-0/" "utildll/" "ext-ms-win-gdi-render-l1-1-0/" "dmscript/" "opengl32/" "shell32/" "bcrypt/" "wmcodecdspuuid/" "evr/" "msvcp80/" "dpnlobby/" "storage.dll16/" "dpnet/" "msctfp/" "api-ms-win-core-handle-l1-1-0/" "api-ms-win-core-registry-l1-1-0/" "d3d9/" "stress.dll16/" "ext-ms-win-gdi-font-l1-1-0/" "winhttp/" "api-ms-win-core-largeinteger-l1-1-0/" "vcruntime140/" "d3dcompiler_46/" "wintrust/" "adsiid/" "advapi32/" "secur32/" "mfplay/" "api-ms-win-core-file-l1-2-2/" "explorerframe/" "cryptnet/" "d3dcompiler_35/" "api-ms-win-core-localization-obsolete-l1-1-0/" "mssip32/" "avifile.dll16/" "api-ms-win-core-privateprofile-l1-1-1/" "msimsg/" "ext-ms-win-ntuser-rectangle-ext-l1-1-0/" "atl110/" "api-ms-win-crt-heap-l1-1-0/" "api-ms-win-crt-string-l1-1-0/" "api-ms-win-crt-filesystem-l1-1-0/" "rtutils/" "ext-ms-win-ntuser-uicontext-ext-l1-1-0/" "api-ms-win-core-heap-l2-1-0/" "wsnmp32/" "compobj.dll16/" "api-ms-win-core-libraryloader-l1-2-1/" "dx8vb/" "srclient/" "api-ms-win-core-string-l2-1-0/" "xinput9_1_0/" "newdev/" "printui/" "d3dx9_36/" "api-ms-win-crt-time-l1-1-0/" "ext-ms-win-security-credui-l1-1-0/" "mscms/" "crypt32/" "api-ms-win-security-base-l1-2-0/" "api-ms-win-core-rtlsupport-l1-1-0/" "uxtheme/" "oleaut32/" "api-ms-win-service-core-l1-1-1/" "wbemprox/" "d3dim/" "api-ms-win-core-sysinfo-l1-2-1/" "dsound/" "api-ms-win-core-rtlsupport-l1-2-0/" "wsock32/" "api-ms-win-core-winrt-string-l1-1-1/" "api-ms-win-crt-stdio-l1-1-0/" "d3dx9_29/" "d3dx10_33/" "api-ms-win-crt-runtime-l1-1-0/" "api-ms-win-power-base-l1-1-0/" "msscript.ocx/" "stdole32.tlb/" "winebus.sys/" "ucrtbase/" "api-ms-win-core-errorhandling-l1-1-3/" "joy.cpl/" "authz/" "api-ms-win-security-activedirectoryclient-l1-1-0/" "msvcr110/" "fusion/" "gameux/" "d3dx10_39/" "d2d1/" "atl/" "credui/" "wevtapi/" "cards/" "compstui/" "api-ms-win-core-com-l1-1-1/" "iccvid/" "ext-ms-win-ntuser-misc-l1-1-0/" "mswsock/" "ext-ms-win-ntuser-private-l1-1-1/" "msxml/" "shdoclc/" "cdosys/" "comdlg32/" "wer/" "api-ms-win-core-xstate-l2-1-0/" "api-ms-win-crt-math-l1-1-0/" "api-ms-win-eventing-legacy-l1-1-0/" "msvcp60/" "ndis.sys/" "api-ms-win-shcore-scaling-l1-1-1/" "api-ms-win-core-localization-private-l1-1-0/" "msvcrt20/" "api-ms-win-core-libraryloader-l1-1-1/" "localspl/" "ws2_32/" "qedit/" "ext-ms-win-ntuser-message-l1-1-1/" "wbemdisp/" "api-ms-win-crt-conio-l1-1-0/" "netprofm/" "snmpapi/" "ext-ms-win-shell-comdlg32-l1-1-0/" "avrt/" "krnl386.exe16/" "hhctrl.ocx/" "xmllite/" "api-ms-win-core-console-l1-1-0/" "winegstreamer/" "api-ms-win-crt-utility-l1-1-0/" "olecli32/" "api-ms-win-core-xstate-l1-1-0/" "msvideo.dll16/" "d3dx9_38/" "ext-ms-win-security-cryptui-l1-1-0/" "dmband/" "vmm.vxd/" "actxprxy/" "d3dx9_28/" "openal32/" "api-ms-win-core-sysinfo-l1-1-0/" "opcservices/" "netapi32/" "itss/" "sxs/" "api-ms-win-core-synch-l1-2-1/" "qmgr/" "wlanui/" "wmp/" "api-ms-win-rtcore-ntuser-wmpointer-l1-1-0/" "dwrite/" "api-ms-win-security-cryptoapi-l1-1-0/" "wldap32/" "api-ms-win-core-processenvironment-l1-1-0/" "api-ms-win-core-fibers-l1-1-1/" "xinput1_2/" "webservices/" "mciwave/" "api-ms-win-core-stringansi-l1-1-0/" "sti/" "d3d12/" "api-ms-win-core-winrt-error-l1-1-1/" "winsock.dll16/" "mspatcha/" "api-ms-win-security-lsalookup-l1-1-1/" "resutils/" "api-ms-win-core-heap-l1-2-0/" "objsel/" "tapi32/" "shell.dll16/" "api-ms-win-core-synch-l1-2-0/" "amstream/" "ieproxy/" "ext-ms-win-rtcore-ntuser-syscolors-l1-1-0/" "twain.dll16/" "api-ms-win-core-kernel32-legacy-l1-1-0/" "msvcp140/" "ext-ms-win-shell-shell32-l1-2-0/" "dpvoice/" "xapofx1_2/" "imm.dll16/" "d3dxof/" "d3dx9_43/" "api-ms-win-mm-time-l1-1-0/" "connect/" "dhcpcsvc/" "bluetoothapis/" "inseng/" "hlink/" "propsys/" "api-ms-win-core-psapi-l1-1-0/" "api-ms-win-rtcore-ntuser-private-l1-1-0/" "npptools/" "api-ms-win-downlevel-advapi32-l1-1-0/" "api-ms-win-devices-query-l1-1-1/" "infosoft/" "api-ms-win-core-delayload-l1-1-1/" "api-ms-win-security-lsapolicy-l1-1-0/" "api-ms-win-core-kernel32-legacy-l1-1-1/" "wow32/" "oleacc/" "comm.drv16/" "mfreadwrite/" "api-ms-win-dx-d3dkmt-l1-1-0/" "d3dx10_34/" "api-ms-win-core-heap-obsolete-l1-1-0/" "wineps.drv/" "dmloader/" "api-ms-win-core-versionansi-l1-1-0/" "wuaueng/" "d3dcompiler_41/" "api-ms-win-devices-config-l1-1-0/" "ext-ms-win-kernel32-package-current-l1-1-0/" "oledb32/" "dswave/" "sane.ds/" "msvcp70/" "sccbase/" "atlthunk/" "api-ms-win-core-libraryloader-l1-2-0/" "dciman32/" "api-ms-win-downlevel-version-l1-1-0/" "ktmw32/" "aclui/" "api-ms-win-eventing-classicprovider-l1-1-0/" "ctl3d32/" "w32sys.dll16/" "api-ms-win-core-registry-l2-1-0/" "api-ms-win-downlevel-shlwapi-l1-1-0/" "msvcr70/" "dxva2/" "urlmon/" "d3dx10_36/" "api-ms-win-core-debug-l1-1-1/" "xinput1_1/" "winemapi/" "shfolder/" "wineoss.drv/" "ninput/" "api-ms-win-downlevel-user32-l1-1-0/" "ext-ms-win-domainjoin-netjoin-l1-1-0/" "xaudio2_9/" "cryptext/" "d3dx11_42/" "sspicli/" "api-ms-win-crt-process-l1-1-0/" "lzexpand.dll16/" "api-ms-win-security-credentials-l1-1-0/" "sapi/" "wing.dll16/" "api-ms-win-crt-locale-l1-1-0/" "mshtml/" "api-ms-win-security-base-l1-1-0/" "ole2conv.dll16/" "winmm/" "loadperf/" "api-ms-win-core-atoms-l1-1-0/" "xinput1_4/" "d3dx10_35/" "api-ms-win-core-threadpool-l1-2-0/" "user.exe16/" "api-ms-win-downlevel-ole32-l1-1-0/" "api-ms-win-core-memory-l1-1-1/" "api-ms-win-downlevel-advapi32-l2-1-0/" "api-ms-win-service-management-l1-1-0/" "concrt140/" "rasapi16.dll16/" "libd3dx10.def" "drmclien/" "davclnt/" "d3dcompiler_40/" "api-ms-win-core-errorhandling-l1-1-2/" "ext-ms-win-ntuser-private-l1-3-1/" "rstrtmgr/" "strmiids/" "api-ms-win-crt-convert-l1-1-0/" "wintab32/" "api-ms-win-perf-legacy-l1-1-0/" "d3dx9_41/" "iphlpapi/" "powrprof/" "wuapi/" "msxml2/" "msxml6/" "d3d11/" "dmcompos/" "api-ms-win-core-debug-l1-1-0/" "ext-ms-win-gdi-dc-create-l1-1-0/" "dxerr9/" "msvcr90/" "ext-ms-win-ntuser-window-l1-1-4/" "api-ms-win-core-appcompat-l1-1-1/" "mapistub/" "msdaps/" "dispdib.dll16/" "odbccp32/" "sas/" "ext-ms-win-ntuser-dialogbox-l1-1-0/" "vssapi/" "api-ms-win-security-systemfunctions-l1-1-0/" "api-ms-win-eventing-controller-l1-1-0/" "opencl/" "mgmtapi/" "wdscore/" "ext-ms-win-ras-rasapi32-l1-1-0/" "ext-ms-win-ntuser-keyboard-l1-3-0/" "security/" "ctl3d.dll16/" "ddrawex/" "lz32/" "adsldpc/" "d3dx10_40/" "scsiport.sys/" "mfplat/" "msado15/" "msdrm/" "libhidclass.def" "normaliz/" "d3dx9_37/" "ext-ms-win-rtcore-gdi-devcaps-l1-1-0/" "mciseq/" "riched32/" "fontsub/" "capi2032/" "d3dcompiler_37/" "ksecdd.sys/" "d3dx10_41/" "mssign32/" "initpki/" "amsi/" "d3dx9_26/" "sensapi/" "pstorec/" "libxinput.def" "hid/" "devenum/" "dwmapi/" "vcomp110/" "msisys.ocx/" "msisip/" "api-ms-win-service-winsvc-l1-1-0/" "msvcrt/" "wlanapi/" "api-ms-win-core-crt-l2-1-0/" "api-ms-win-shcore-obsolete-l1-1-0/" "msi/" "ddraw/" "fltmgr.sys/" "api-ms-win-core-console-l2-1-0/" "ole32/" "dxgi/" "dinput8/" "adsldp/" "ext-ms-win-rtcore-ntuser-dc-access-l1-1-0/" "dbghelp/" "setupx.dll16/" "../" "./")
+
+ ("/home/mattk/dev/void-passage/private/" (24542 56764 444835 704000) "private.org" "zazen.org" "Fukanzazengi.pdf" "../" "./")
+
+ ("/home/mattk/dev/wine-build/src/debian/patches/warnings/" (24139 18459 0 0) "argument-promotion.patch" "incompatible-pointers.patch" "discarded-qualifiers.patch" "printf-null.patch" "array-bounds.patch" "../" "arm-longdouble.patch" "./" "arm64-tautological-compare.patch" "arm-messages.patch" "incorrect-bounds.patch" "arm64-excess-precision.patch" "uninitialized-variables.patch" "bison.patch" "format-overflow.patch")
+
+ ("/home/mattk/dev/wine-build/src/debian/patches/" (24221 47221 0 0) "zlib/" "fixes/" "arm64.patch" "debianization/" "warnings/" "binary-indep/" "unicode13.patch" "../" "./" "series" "mouse-hack" "generate/" "disable/")
+
+ ("/home/mattk/dev/wine-build/src/debian/" (24221 47221 0 0) "control.in" "fonts-wine.docs" "wine32VERSION-preloader.install" "compat" "control" "wine-binfmt.docs" "libwineVERSION-dev.install" "source/" "wineVERSION.docs" "watch" "libwineVERSION-dev.docs" "wine32VERSION-tools.lintian-overrides" "upstream/" "libwineVERSION.lintian-overrides" "wine64VERSION.install" "wine64VERSION-tools.links" "wine64VERSION.links" "copyright" "wine32VERSION-tools.links" "libwineVERSION.docs" "NEWS" "rules" "fonts-wine.lintian-overrides" "wineVERSION.manpages" "unicode/" "wine64VERSION.lintian-overrides" "wine64VERSION-tools.install" "wine64VERSION.manpages" "wine-binfmt.prerm" "wine32VERSION-preloader.lintian-overrides" "bug-control.in" "patches/" "binfmt/" "wine32VERSION.install" "libwineVERSION.install" "README.debian" "wine64VERSION-tools.manpages" "wine32VERSION-tools.docs" "org.winehq.wine-development.appdata.xml" "wine32VERSION-preloader.docs" "scripts/" "wine64VERSION-preloader.docs" "../" "wineVERSION.triggers" "wineVERSION.install" "TODO" "wineVERSION.examples" "./" "wine32VERSION-tools.install" "wineVERSION.postinst" "fonts-wine.install" "changelog" "rfc3454.txt" "wine-binfmt.install" "wineVERSION.prerm" "wine64VERSION-tools.docs" "wine-binfmt.postinst" "wine32VERSION.docs" "org.winehq.wine.appdata.xml" "wine64VERSION-preloader.install" "bug-script" "wine32VERSION.lintian-overrides" "wine64VERSION-preloader.lintian-overrides" "clean" "wine64VERSION-tools.lintian-overrides" "wineVERSION.links" "wine64VERSION.docs" "wine32VERSION-tools.manpages")
+
+ ("/home/mattk/dev/ladders/services/test/core/services/test/" (24541 5018 7857 501000) "fixtures/" "db.clj" "resources/" "core.clj" "../" "./" "gen.clj")
+
+ ("/home/mattk/dev/void-passage/" (24489 19826 532775 750000) "package-lock.json" "node_modules/" "less" "../" "./" "public/" ".gitignore" ".git/" "private/")
+
+ ("/home/mattk/dev/ladders/db-schema/maria/scripts/" (24540 57495 386891 41000) "00.00.123-hamilton-addresses.sql" "00.00.056-deprecate-company-status.sql" "00.00.124-hamilton-new-billing-plans.sql" "00.00.017-subscription_status.sql" "00.00.093-add-column-filled-reason-text.sql" "00.00.073-add-jobs-table.sql" "00.00.126-taxjar-log.sql" "00.00.116-remove-fk-drip-pref.sql" "00.00.052-more_dst_fixes.sql" "00.00.025-admin-refresh-token.sql" "00.00.012-overall-email-frequency.sql" "00.00.049-apply-for-me-application.sql" "00.00.047-remove-hirefast-recruiter-id.sql" "00.00.065-ladders_bi.usp_member_premium_processing_DDL.sql" "00.00.064-readd-county-fk.sql" "00.00.026-kv-value-type.sql" "00.00.072-ladders_bi_vw_email_up_for_renewal_totals.sql" "00.00.040-jobsite-status-update.sql" "00.00.001-initial.sql" "00.00.036-disabling-jobsites-missing-master-companies.sql" "00.00.079-reactivate-jobsites.sql" "00.00.055-de-activate-appcast-feed.sql" "00.00.068-ladders_bi.usp_report_tableau_member_subscription_DML.sql" "00.00.021-update_jobsite_harvest_frequency.sql" "00.00.095-update-filled-reason.sql" "00.00.103-add-unique-master_company_ats.sql" "00.00.099-create-ats-tables.sql" "00.00.096-update-pfj-phrases.sql" "00.00.004-member-top-resume.sql" "00.00.120-more-salary-mappings.sql" "00.00.014-hamilton_billing_plan.sql" "00.00.019-insert-url-types.sql" "00.00.101-new-prospective-member-source.sql" "00.00.061-migrated-subscription.sql" "00.00.006-email_frequency.sql" "00.00.075-create-reader-user.sql.enc" "00.00.003-member-recruiter-profile.sql" "00.00.082-apply-for-me-answer-updates.sql" "00.00.110-create-email-drip-campaign-tables.sql" "00.00.098-job-feed-job-file.sql" "00.00.059-insert-master-company-website-link-types.sql" "00.00.038-fixing-create-time-for-jobsites.sql" "00.00.108-top-resume-failure.sql" "00.00.023-couchbase-migration.sql" "00.00.118-apply-for-me-admin-reasons-to-skip.sql" "00.00.043-consolidating-jobsite-statuses.sql" "00.00.087-update-jobs2web.sql" "00.00.121-add-PFJ-phrases-for-ultipro.sql" "00.00.113-canonical-title-update.sql" "00.00.063-zipname-county.sql" "00.00.020-harvest_frequency.sql" "00.00.044-apply-for-me-member-data.sql" "00.00.070-ladders_bi.usp_report_email_Hamilton_up_for_renewal_EoM.sql" "00.00.115-opt-in-partner-offers.sql" "00.00.005-email_frequency.sql" "00.00.027-lowercase-seo-name.sql" "00.00.008-datacrawler_finviz_default_null.sql" "00.00.018-position_level_inactive_value.sql" "00.00.102-insert-ats-approval-batch-jobs.sql" "00.00.066-ladders_bi.usp_member_premium_processing_update_DML.sql" "00.00.002-storedprocs-functions.sql" "00.00.060-insert-fisher-batch-job.sql" "00.00.088-thirdpage-questions-update.sql" "00.00.067-ladders_bi.usp_report_tableau_member_subscription_DDL.sql" "00.00.125-prune-feed-file-job.sql" "00.00.094-file-type.sql" "00.00.030-disable-aspentech-feeds.sql" "00.00.022-marc-facebook-report-index.sql" "00.00.016-datacrawler_statistic.sql" "00.00.100-insert-batch-jobs.sql" "00.00.009-hamilton_chargebacks.sql" "00.00.011-email-preference-type.sql" "00.00.076-initial.sql" "00.00.029-unassign-jobsite-reason.sql" "00.00.090-company-description-batch-job.sql" "00.00.117-recreate-crawler-wikipedia.sql" "00.00.074-create-writer-user.sql.enc" "00.00.062-add-website-link-unique-keys.sql" "00.00.045-fix_job_apply_datetimes.sql" "00.00.084-ladders_bi_email_daily_stats.sql" "00.00.111-job-harvest-time.sql" "00.00.080-disable-acquired-company-feeds.sql" "00.00.106-update-finviz-table.sql" "00.00.046-fix_dst_datetimes.sql" "00.00.033-re-activate-temporarily-disabled-jobsites.sql" "00.00.089-harvest-cycle.sql" "00.00.034-jobsite-status-update-other-status.sql" "00.00.042-disabling-foreign-feeds.sql" "00.00.013-member-auth.sql" "00.00.057-batch-jobs.sql" "00.00.092-insert-pfj-phrases.sql" "00.00.032-jobsite-status-update.sql" "00.00.112-create-email-preference-tables.sql" "00.00.086-subscription-plan-change.sql" "00.00.091-feed-file.sql" "00.00.037-re-activate-temporarily-disabled-jobsites.sql" "00.00.107-insert-batch-job-finviz-submission.sql" "00.00.083-job-description-fix.sql" "00.00.104-batch-job-lock.sql" "00.00.078-initial.sql" "00.00.105-insert-master-company-sources-finviz.sql" "00.00.050-trim-seo-name-whitespace.sql" "00.00.117-send_at_no_on_update.sql" "00.00.024-fingerprint-device.sql" "00.00.051-update-corporate-murphyusa-seo-company.sql" "00.00.058-insert-master-company-sources.sql" "00.00.119-salary-mapping.sql" "00.00.007-datacrawler_finviz.sql" "00.00.028-js-saved-search-blob.sql" "00.00.048-datacrawler_linkedin.sql" "00.00.010-motion-recruitment-promotions.sql" "00.00.125-add-PFJ-phrases.sql" "00.00.031-jobsite-unassign-timestamp.sql" "00.00.071-ladders_bi_vw_email_up_for_renewal.sql" "00.00.053-location-matching.sql" "00.00.069-ladders_bi.usp_report_email_Hamilton_up_for_renewal_DDL.sql" "00.00.081-apply-for-me-answer-active-flag.sql" "00.00.041-update-appcast-feed.sql" "00.00.114-update-drip-campaign-recipient-tables.sql" "00.00.054-apply-for-me-question-types.sql" "00.00.039-jobsite-harvest-history.sql" "00.00.077-county-column.sql" "00.00.122-add-recipient-type-to-drip-campaign.sql" "00.00.015-datacrawler_anomaly.sql" "00.00.109-cart-note.sql" "00.00.085-migrated-subscriptions.sql" "00.00.091-update-prospective-member-source.sql" "00.00.035-remove-leading-trailing-space-master-company-name.sql" "../" "./")
+
+ ("/home/mattk/dev/ladders/db-schema/maria/" (24540 58004 95567 454000) "Makefile" "uuid" "docker/" "design/" "manual/" "local-data/" "scripts/" "../" ".dockerignore" "./" "snapshots/" "users/" "README.md" ".gitignore")
+
+ ("/home/mattk/dev/ladders/services/test/core/services/test/resources/" (24489 25424 779799 83000) "profile_image_cropped.jpeg" "../" "./")
+
+ ("/home/mattk/dev/ladders/services/test/web/services/test/fixtures/" (24539 40662 306970 153000) "system.clj" "../" "./")
+
+ ("/home/mattk/dev/ladders/services/test/web/services/test/" (24489 25424 779799 83000) "fixtures/" "../" "./")
+
+ ("/home/mattk/dev/ladders/services/test/web/services/" (24489 25424 779799 83000) "test/" "../" "./")
+
+ ("/home/mattk/dev/ladders/services/test/web/" (24516 65084 169577 845000) "../" "./" "services/")
+
+ ("/home/mattk/dev/ladders/services/test/core/services/" (24489 25424 779799 83000) "test/" "../" "./")
+
+ ("/home/mattk/dev/ladders/services/test/core/" (24518 34811 356129 794000) "../" "./" "README.md" "services/" "deps.edn")
+
+ ("/home/mattk/dev/ladders/services/test/" (24489 25424 779799 83000) "core/" "web/" "../" "./")
+
+ ("/home/mattk/dev/ladders/services/web/interstellar/test/" (24277 19703 781059 416000) "com/" "../" "./")
+
+ ("/home/mattk/dev/ladders/services/web/interstellar/test/com/" (24277 19703 781059 416000) "../" "./" "theladders/")
+
+ ("/home/mattk/dev/ladders/services/web/interstellar/test/com/theladders/" (24277 19703 781059 416000) "../" "./" "interstellar/")
+
+ ("/home/mattk/dev/ladders/db-schema/" (24530 38817 124391 412000) "redshift/" "Jenkinsfile" "maria/" "test.sh" "bin/" "../" "./" "README.org" "CODEOWNERS" ".gitignore" ".git/")
+
+ ("/home/mattk/dev/ladders/services/web/interstellar/" (24539 43851 659534 133000) ".nrepl-port" "designs/" "Makefile" "Jenkinsfile" ".cpcache/" "test/" "entrypoint.sh" "target/" "keystore.ks" "dev/" "test_resume_files/" "../" "./" "src/" "README.org" ".gitrepo" "Dockerfile" ".gitignore" "deps.edn")
+
+ ("/home/mattk/dev/ladders/infrastructure/eks/" (24240 14324 950370 870000) "Pulumi/" "Makefile" "setup_eks_access.sh" "packer/" "../" "./" ".editorconfig" ".gitignore" "doc/")
+
+ ("/home/mattk/dev/ladders/infrastructure/" (24194 9935 376573 713000) "couchbase-backup/" "mariadb-backup/" "eks/" "datastores/" "../" "./" "serverless/" ".git/")
+
+ ("/home/mattk/dev/ladders/leone/streams_apps/" (24531 35955 432411 93000) "recruiter-time.yaml" "ace.yaml" "samwise-replicator.yaml" "nina.yaml" "muldoon.yaml" "recruiter-views-processor.yaml" "evie-jobseeker.yaml" "ruthie.yaml" "rubber-duck-s3.yaml" "crawlers-processor.yaml" "evie-member-public-profile.yaml" "evie-member-admin.yaml" "samwise-archive.yaml" "candidate-search.yaml" "smykowski.yaml" "donny.yaml" "samwise-import.yaml" "rubber-duck-s3-email.yaml" "../" "samwise-redshift.yaml" "./" "resume-view.yaml" "musgrove.yaml" "email-frequency.yaml" "walsingham.yaml" "rubber-duck-maria.yaml" "vpa.yaml" "job-search-view.yaml")
+
+ ("/home/mattk/dev/ladders/leone/deployments/" (24531 35955 432411 93000) "smee.yaml" "face-off.yaml" "youve-got-mail.yaml" "rashomon.yaml" "public-services-nginx.yaml" "splash.yaml" "run-lola-run.yaml" "interstellar.yaml" "police-academy.yaml" "pennyworth.yaml" "internal-admin.yaml" "clamav.yaml" "lw.yaml" "inside-man.yaml" "rw.yaml" "interstellar-vindicia.yaml" "recruit-app.yaml" "../" "./" "cast-away.yaml" "firefly.yaml" "rufio.yaml" "grafana-metrics.yaml" "vpa.yaml" "services-nginx.yaml")
+
+ ("/home/mattk/dev/ladders/services/web/" (24437 52567 342938 962000) "police-academy/" "smee/" "inside-man/" "face-off/" "../" "./" "youve-got-mail/" "interstellar/" "cast-away/" "run-lola-run/" "rashomon/")
+
+ ("/home/mattk/dev/ladders/services/web/interstellar/src/" (24277 19703 777059 484000) "com/" "../" "./")
+
+ ("/home/mattk/dev/ladders/services/web/interstellar/src/com/" (24277 19703 777059 484000) "../" "./" "theladders/")
+
+ ("/home/mattk/dev/ladders/services/web/interstellar/src/com/theladders/" (24277 19703 777059 484000) "../" "./" "interstellar/")
+
+ ("/home/mattk/dev/ladders/services/web/interstellar/src/com/theladders/interstellar/" (24538 26313 545861 229000) "digital_resume.clj" "payment.clj" "routes.clj" "health.clj" "member_connections.clj" "system.clj" "member_auth.clj" "resume.clj" "error.clj" "thirdpage.clj" "prospect.clj" "apply_for_me.clj" "../" "./" "jobmatch.clj" "member_resume.clj" "cache.clj" "social.clj" "audit.clj" "member.clj")
+
+ ("/home/mattk/dev/notebook/" (24535 63263 97549 241000) "startup.org" "startup/" "vision.org" "learning-to-learn.txt" "silver.org" "phil-reading-list.org" "ladders-log/" "sitting.org" "summer-rental-2020.org" "nomad/" "back-mechanic.org" "sicp/" "hoboken-parking.org" "../" "tax.org" "rutgers-phil-103-syllabus.pdf" "yoga.org" "./" "meandering.org" "cs-reading-list.org" "the-republic.org" "xfinity-id" "truck.org" "comp-sci/" ".gitignore" "truck.html" ".git/" "truck/" "measure-what-matters.org" "deploy-truck.sh")
+
+ ("/home/mattk/dev/ladders/services/lib/hamilton/test/com/theladders/" (24263 64365 664223 694000) "hamilton_test.clj" "hamilton/" "../" "./")
+
+ ("/home/mattk/dev/ladders/services/lib/hamilton/test/com/" (24263 64365 664223 694000) "../" "./" "theladders/")
+
+ ("/home/mattk/dev/ladders/services/lib/hamilton/test/" (24263 64365 664223 694000) "com/" "../" "./")
+
+ ("/home/mattk/dev/ladders/engineering/services/" (24531 54139 175637 189000) "cicd.org" "hamilton/" "lw-network.org" "libs.png" ".DS_Store" "network.png" "design/" "monorepo.org" "redshift-streaming.png" "services-translator.md" "../" "./" "couchbase-migration/" "qa-refresh.org" "README.org" "kurosawa.org" "lw-current.png" "redshift.org")
+
+ ("/home/mattk/dev/emako-202012/" (24531 43738 32335 42000) "lisp.el" "recentf" ".emacs.d/" "init.el" "melpa-packages.el" "osx.el" "elpa/" "notes" "el-get-packages.el" "sql.el" "recipes/" "scala.el" "lib/" "common.el" "ido.last" ".backups/" "custom.el" "recentf~" "c.el" "startup.el" "display.el" "text.el" "helm.el" "misc.el" "../" "transient/" "./" "keys.el" "javascript.el" "git.el" "auto-save-list/" ".gitignore" "projectile-bookmarks.eld" ".git/")
+
+ ("/home/mattk/Desktop/" (24493 23601 952061 692000) "../" "./")
+
+ ("/home/mattk/dev/ladders/config/env/local/" (24087 18300 713426 200000) "secrets/" "../" "./" "configs/")
+
+ ("/home/mattk/dev/ladders/config/env/" (24087 18300 729425 635000) "prod/" "test/" "local/" "../" "./" "qa/")
+
+ ("/home/mattk/dev/ladders/config/" (24535 36881 357688 205000) "Makefile" "Jenkinsfile" "bin/" "env/" "../" "./" "dec/" "README.md" ".gitignore" ".git/")
+
+ ("/home/mattk/dev/ladders/services/lib/hamilton/src/com/theladders/" (24263 64365 660223 753000) "hamilton/" "hamilton.clj" "../" "./")
+
+ ("/home/mattk/dev/ladders/services/lib/hamilton/src/com/" (24263 64360 688297 407000) "../" "./" "theladders/")
+
+ ("/home/mattk/dev/ladders/services/lib/hamilton/src/" (24263 64360 688297 407000) "com/" "../" "./")
+
+ ("/home/mattk/dev/ladders/services/lib/" (24476 18544 230642 724000) "kamarov/" "kane/" "wilson/" "mortimer/" "blume/" "benedict/" "hansolo/" "young/" "hamilton/" "jarvis/" "hal/" "thales/" "rudy/" "irulan/" "louise/" "hilaryfaye/" "salary/" "deckard/" "brantley/" "kurtzmann/" "dory/" "lau/" "connors/" "velma/" "morpheus/" "thirdpage/" "edna/" "hitch/" "publication-indexer/" "fiorello/" "calhoun/" "mcginty/" "hart/" "suarez/" "eduardo/" "pepper/" "nedry/" "gregor/" "tars/" "prometheus/" "noland/" "helpmann/" "dupree/" "platforming/" "torres/" "vizzini/" "viki/" "gardner/" "skeeter/" "tron/" "flash/" "koko/" "kurosawa-misc/" "swiftus/" "faceman/" "dalton/" "mclovin/" "saigo/" "pennyworth/" "collins/" "bridgekeeper/" "grinch/" "../" "gil/" "dante/" "zarkos/" "shopgirl/" "concorde/" "./" "recruiter-projects/" "email-alias/" "baker/" "emma/" "filipov/" "jerome/" "jameson/" "robeson/" "mushu/" "picard/" "gene/" "recruiter-interactions/" "ladders-domains/" "scuttle/" "fischer/" "location-updater/" "kikori/" "scamander/" "google-indexer/" "case/" "feed-processor/" "lumbergh/" "pistachio/" "ace-ventura/" "cher/" "altman/")
+
+ ("/home/" (24058 28652 10215 279000) "../" "./" "mattk/")
+
+ ("/home/mattk/dev/AWS-PlantUML/dist/Database/AmazonRDS/" (24531 44286 629140 798000) "AmazonRDS-sprite.puml" "OracleDBinstancealternate/" "MySQLinstancealternate/" "MSSQLinstance/" "instancestandby/" "SQLslave/" "MSSQLinstancealternate/" "SQLmaster/" "oracleDBinstance/" "instancereadreplica/" "AmazonRDS_LARGE.puml" "../" "PostgreSQLinstance/" "./" "AmazonRDS.puml" "PIOP/" "DBinstance/" "MySQLDBinstance/" "AmazonRDS_LARGE-sprite.puml")
+
+ ("/home/mattk/dev/AWS-PlantUML/dist/Database/" (24531 44286 629140 798000) "AmazonElasticCache/" "AmazonRDS/" "AWSDMS/" "AmazonDynamoDBAccelerator/" "../" "./" "AmazonDynamoDB/" "AmazonRedshift/")
+
+ ("/home/mattk/dev/AWS-PlantUML/dist/" (24531 44286 705143 60000) "SecurityIdentityCompliance/" "Compute/" "AI/" "Storage/" "ContactCenter/" "GameDevelopment/" "MobileServices/" "ApplicationServices/" "common.puml" "Migration/" "../" "OnDemandWorkforce/" "Messaging/" "Database/" "./" "BusinessProductivity/" "Analytics/" "SDKs/" "InternetOfThings/" "DesktopAppStreaming/" "DeveloperTools/" "ManagementTools/" "NetworkingContentDelivery/" "General/")
+
+ ("/home/mattk/dev/AWS-PlantUML/" (24531 44286 725143 654000) "dist/" "examples/" "LICENSE" "puml.py" "awspuml.ini" "puml.ini" "plantuml.jar" "common.puml" "../" "./" "README.md" ".gitignore" ".git/")
+
+ ("/home/mattk/dev/ladders/engineering/" (24531 41489 517389 114000) "operations/" "admin/" "SEO/" "clojure-style-guide.md" "production/" "recruiter/" "devops/" "member/" "incidents/" "data/" "cs-js-migration.md" "../" "./" "design-reviews.md" "README.md" "intellij/" ".gitignore" "email/" "services/" ".git/")
+
+ ("/home/mattk/dev/ladders/" (24530 28388 112147 837000) "kamarov/" "mortimer/" "clean-room/" "police-academy/" "blume/" "benedict/" "young/" "hamilton/" "firefly/" "evie/" "monitoring-infra-vendor.tgz" "smaug/" "jenkins-plugins/" "hal/" "jenkins-jobs/" "lw-back-end/" "lw-build/" "rudy/" "infrastructure/" "irulan/" "hilaryfaye/" "deckard/" "brantley/" "kurtzmann/" "lau/" "connors/" "morpheus/" "dockerfiles/" "thirdpage/" "services.dead/" "edna/" "services.tar.gz" "hitch/" "publication-indexer/" "lib/" "fiorello/" "inside-man/" "config/" "services-20200417.tgz" "monitoring-infra.20200507/" "mattk-log/" "mcginty/" "suarez/" "pepper/" "rw-front-end/" "nedry/" "gregor/" "services.monorepo/" "leone/" "db-schema/" "helpmann/" "iam-infra/" "platforming/" "engineering/" "egon/" "torres/" "vizzini/" "joy/" "gardner/" "tron/" "koko/" "kurosawa-misc/" "swiftus/" "faceman/" "dalton/" "mclovin/" "pennyworth/" "collins/" "bridgekeeper/" "grinch/" "../" "gil/" "samwise/" "jenkins/" "dante/" "concorde/" "./" "emma/" "filipov/" "robeson/" "interstellar/" "mushu/" "picard/" "lw/" "services-nginx/" "ladders-domains/" "scuttle/" "fischer/" "monitoring-infra/" "kikori/" "services/" "recruit-app/" "google-indexer/" "pack.alpha/" "rashomon/" "services.alpha/" "pistachio/" "ace-ventura/" "cher/" "altman/" "notebook/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

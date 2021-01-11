@@ -49,8 +49,8 @@
 ;; default vertical split?
 (setq split-height-threshold nil)
 
-(setq split-width-threshold 90)
-;;(setq split-width-threshold 88)
+(setq split-width-threshold 91)
+;;(setq split-width-threshold 80)
 
 (scroll-bar-mode 0)
 (tool-bar-mode 0)
@@ -97,7 +97,8 @@
 (setq ido-enable-flex-matching t)
 
 ;; source: https://www.masteringemacs.org/article/introduction-to-ido-mode
-(setq ido-everywhere t)
+;;(setq ido-everywhere t)
+(setq ido-everywhere nil)
 
 (use-package ido-vertical-mode
   :init
@@ -143,6 +144,7 @@
 
 (global-set-key (kbd "C-x C-r") 'recentf-ido-find-file)
 
+(use-package ag)
 
 ;; source:
 ;; https://github.com/kaushalmodi/.emacs.d/blob/master/setup-files/setup-backup.el
