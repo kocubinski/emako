@@ -147,3 +147,13 @@ source $HOME/.local/opt/git-subrepo/.rc
 export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
 export KUROSAWA_S3_CONFIG_URI="s3://ladders-config/local/"
+
+CONFIGDIR=$HOME/dev/emako/bash
+if [ -f "$CONFIGDIR/bash-git-prompt/gitprompt.sh" ]; then
+  GIT_PROMPT_ONLY_IN_REPO=1
+  source $CONFIGDIR/bash-git-prompt/gitprompt.sh
+else
+  echo "WARN: $CONFIGDIR/bash-git-prompt/gitprompt.sh not found"
+fi
+
+set -o vi
