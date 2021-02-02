@@ -147,6 +147,8 @@ source $HOME/.local/opt/git-subrepo/.rc
 export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
 export KUROSAWA_S3_CONFIG_URI="s3://ladders-config/local/"
+export PATH=$HOME/bin:$HOME/.local/opt/kafka_2.12-1.1.1/bin:$HOME/.local/bin:$HOME/.local/usr/bin:$PATH
+export PATH=$PATH:$HOME/.pulumi/bin:$GOPATH/bin:$HOME/.local/usr/sbin
 
 CONFIGDIR=$HOME/dev/emako/bash
 if [ -f "$CONFIGDIR/bash-git-prompt/gitprompt.sh" ]; then
@@ -157,3 +159,4 @@ else
 fi
 
 set -o vi
+

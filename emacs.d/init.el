@@ -274,14 +274,12 @@
 
 (defun the-org-mode-hook ()
   (auto-fill-mode 1)
-  (set-fill-column 86))
+  (set-fill-column 86)
+  (flyspell-mode)
+  (define-key org-mode-map (kbd "C-,") nil)
+  (define-key flyspell-mode-map (kbd "C-,") nil))
 
 (add-hook 'org-mode-hook #'the-org-mode-hook)
-(add-hook 'org-mode-hook
-	  (lambda ()
-	    (flyspell-mode)
-	    (define-key org-mode-map (kbd "C-,") nil)
-	    (define-key flyspell-mode-map (kbd "C-,") nil)))
 
 (org-babel-do-load-languages
  'org-babel-load-languages
@@ -316,3 +314,53 @@
     (add-hook 'groovy-mode-hook #'the-groovy-mode-hook))
 
 (use-package yaml-mode)
+
+;;--------------------------------------------------------------------------------
+;; javascript.el
+
+(use-package jsonnet-mode)
+
+(defun setup-jsonnet-mode ()
+  (rainbow-delimiters-mode 1))
+
+(add-hook 'jsonnet-mode-hook #'setup-jsonnet-mode)
+
+(defun jsonnet-after-save ()
+  "Before save hook to format the buffer before each save."
+  (when (eq 'jsonnet-mode (symbol-value 'major-mode))
+    (jsonnet-format-buffer)))
+
+(defun jsonnet-format-buffer ()
+  "Reformat entire buffer using the Jsonnet format utility."
+  (interactive)
+  (call-process "jsonnetfmt" nil nil nil "--in-place" (buffer-file-name)))
+
+(add-hook 'after-save-hook 'jsonnet-after-save)
+
+(defun my/json-mode-hook ()
+   (setq tab-width 2))
+(add-hook 'json-mode-hook 'my/js2-mode-hook)
+
+(use-package tide)
+
+(defun setup-tide-mode ()
+  (interactive)
+  (tide-setup)
+  (flycheck-mode +1)
+  (setq flycheck-check-syntax-automatically '(save mode-enabled))
+  (eldoc-mode +1)
+  (tide-hl-identifier-mode +1)
+  ;; company is an optional dependency. You have to
+  ;; install it separately via package-install
+  ;; `M-x package-install [ret] company`
+  (company-mode +1)
+  (setq-local company-minimum-prefix-length 1)
+  (setq-local company-tooltip-align-annotations t))
+
+;; aligns annotation to the right hand side
+
+
+;; formats the buffer before saving
+(add-hook 'before-save-hook 'tide-format-before-save)
+
+(add-hook 'typescript-mode-hook #'setup-tide-mode)
