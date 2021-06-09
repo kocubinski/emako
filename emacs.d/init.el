@@ -1,5 +1,16 @@
 (defun load-el (f)
-  (load-file (concat "~/.emacs.d/" f)))
+  (load-file  (expand-file-name f user-emacs-directory)))
+
+;; os x only
+(add-to-list 'exec-path "/usr/local/opt/openjdk@8/bin")
+(add-to-list 'exec-path	"/usr/local/bin")
+(add-to-list 'exec-path (concat (getenv "HOME") "/.local/opt/node/bin"))
+
+(setenv "PATH" (concat "/usr/local/opt/openjdk@8/bin:" (getenv "PATH")))
+(setenv "JAVA_HOME" "/usr/local/opt/openjdk@8")
+
+(setq mac-option-modifier 'meta)
+(setq mac-command-modifier 'super)
 
 ;; --------------------------------------------------------------------------------
 ;; package.el
@@ -44,7 +55,8 @@
 (setq-default cursor-type 'bar)
 (global-hl-line-mode 1)
 
-(set-face-attribute 'default nil :font "Dejavu Sans Mono-9")
+(set-face-attribute 'default nil :font "Monaco-12")
+;;(set-face-attribute 'default nil :font "Menlo-9")
 
 ;; default vertical split?
 (setq split-height-threshold nil)
@@ -59,64 +71,29 @@
 ;; --------------------------------------------------------------------------------
 ;; ux.el
 
-;; We use ido
-(require 'ido)
-(ido-mode t)
+;;helm
+(use-package helm)
 
-;; Make Ido complete almost anything (except the stuff where it shouldn't)
-;; source https://www.emacswiki.org/emacs/InteractivelyDoThings#toc16
+(require 'helm-config)
+(helm-mode 1)
 
-(defvar ido-enable-replace-completing-read t
-  "If t, use ido-completing-read instead of completing-read if possible.
-    
-    Set it to nil using let in around-advice for functions where the
-    original completing-read is required.  For example, if a function
-    foo absolutely must use the original completing-read, define some
-    advice like this:
-    
-    (defadvice foo (around original-completing-read-only activate)
-      (let (ido-enable-replace-completing-read) ad-do-it))")
+(define-key global-map [remap find-file] 'helm-find-files)
+(define-key global-map [remap occur] 'helm-occur)
+(define-key global-map [remap list-buffers] 'helm-buffers-list)
+(define-key global-map [remap dabbrev-expand] 'helm-dabbrev)
 
-;; Replace completing-read wherever possible, unless directed otherwise
+(global-set-key (kbd "M-x") 'helm-M-x)
+(global-set-key [(f10)] 'helm-buffers-list)
 
-(defadvice completing-read
-    (around use-ido-when-possible activate)
-  (if (or (not ido-enable-replace-completing-read) ; Manual override disable ido
-	  (and (boundp 'ido-cur-list)
-	       ido-cur-list)) ; Avoid infinite loop from ido calling this
-      ad-do-it
-    (let ((allcomp (all-completions "" collection predicate)))
-      (if allcomp
-	  (setq ad-return-value
-		(ido-completing-read prompt
-				     allcomp
-				     nil require-match initial-input hist def))
-	ad-do-it))))
+(unless (boundp 'completion-in-region-function)
+  (define-key lisp-interaction-mode-map [remap completion-at-point] 'helm-lisp-completion-at-point)
+  (define-key emacs-lisp-mode-map       [remap completion-at-point] 'helm-lisp-completion-at-point))
 
-;;You can make use of built-in ido fuzzy match with
-(setq ido-enable-flex-matching t)
-
-;; source: https://www.masteringemacs.org/article/introduction-to-ido-mode
-;;(setq ido-everywhere t)
-(setq ido-everywhere nil)
-
-(use-package ido-vertical-mode
-  :init
-  (progn
-    (ido-mode 1)
-    (ido-vertical-mode 1)
-    (setq ido-vertical-define-keys 'C-n-and-C-p-only)))
-
-;; ido in M-x for certain
-(global-set-key
- "\M-x"
- (lambda ()
-   (interactive)
-   (call-interactively
-    (intern
-     (ido-completing-read
-      "M-x "
-      (all-completions "" obarray 'commandp))))))
+;; enable building of recent files
+(require 'recentf)
+(recentf-mode 1)
+(setq recentf-max-menu-items 25)
+(global-set-key (kbd "C-x C-r") 'helm-recentf)
 
 ;; (use-package smex
 ;;   :init
@@ -129,20 +106,6 @@
     (projectile-mode 1)
     (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
     ))
-
-;; enable building of recent files
-(require 'recentf)
-(recentf-mode 1)
-(setq recentf-max-menu-items 25)
-
-(defun recentf-ido-find-file ()
-  "Find a recent file using Ido."
-  (interactive)
-  (let ((file (ido-completing-read "Choose recent file: " recentf-list nil t)))
-    (when file
-      (find-file file))))
-
-(global-set-key (kbd "C-x C-r") 'recentf-ido-find-file)
 
 (use-package ag)
 
@@ -201,7 +164,7 @@
     (add-hook n 'rainbow-delimiters-mode)
     (add-hook n 'company-mode)))
 
-(sp-use-paredit-bindings)
+;;(sp-use-paredit-bindings)
 (sp-local-pair 'emacs-lisp-mode "`" "'")
 (sp-local-pair 'emacs-lisp-mode "'" nil :actions nil)
 
@@ -301,7 +264,7 @@
 
 ;; kubernetes hacks for ladders
 (setenv "KUROSAWA_S3_CONFIG_URI" "s3://ladders-config/local/")
-(setenv "CLJ_CONFIG" "/home/mattk/dev/ladders/services")
+(setenv "CLJ_CONFIG" (concat (getenv "HOME") "/dev/ladders/services"))
 
 ;; Groovy
 (defun the-groovy-mode-hook ()
@@ -314,6 +277,9 @@
     (add-hook 'groovy-mode-hook #'the-groovy-mode-hook))
 
 (use-package yaml-mode)
+
+(use-package lua-mode)
+(use-package terraform-mode)
 
 ;;--------------------------------------------------------------------------------
 ;; javascript.el
