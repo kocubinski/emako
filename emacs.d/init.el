@@ -51,7 +51,10 @@
 (use-package solarized-theme)
 
 (blink-cursor-mode -1)
-(load-theme 'solarized-dark t)
+(if (display-graphic-p)
+    (load-theme 'solarized-dark t)
+  (load-theme 'solarized-wombat-dark t))
+
 (setq-default cursor-type 'bar)
 (global-hl-line-mode 1)
 
