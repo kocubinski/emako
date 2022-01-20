@@ -261,6 +261,20 @@
 
 (use-package dockerfile-mode)
 
+(use-package impatient-mode)
+
+(defun markdown-html (buffer)
+  (princ (with-current-buffer buffer
+	   (format "<!DOCTYPE html><html><title>Impatient Markdown</title><xmp theme=\"united\" style=\"display:none;\"> %s  </xmp><script src=\"http://strapdownjs.com/v/0.2/strapdown.js\"></script></html>"
+		   (buffer-substring-no-properties (point-min) (point-max))))
+	 (current-buffer)))
+
+;; Start impatient mode in the buffers you're interested to live preview: M-x impatient-mode.
+;; Open your browser to localhost:8080/imp. You'll see the list of buffers with the mode enabled.
+;; Click on one: you see live rendering of the buffer.
+;; Tell impatient mode to use it: M-x imp-set-user-filter RET markdown-html RET
+;; source: https://stackoverflow.com/questions/36183071/how-can-i-preview-markdown-in-emacs-in-real-time
+
 ;; --------------------------------------------------------------------------------
 ;; misc / should be elsewhere
 ;; don't create backup files in directory
