@@ -58,13 +58,17 @@
 (setq-default cursor-type 'bar)
 (global-hl-line-mode 1)
 
-(set-face-attribute 'default nil :font "Monaco-12")
+(set-face-attribute 'default nil :font "Dejavu Sans Mono-9")
 ;;(set-face-attribute 'default nil :font "Menlo-9")
 
 ;; default vertical split?
 (setq split-height-threshold nil)
 
-(setq split-width-threshold 91)
+;; 3 buffers
+(setq split-width-threshold 121)
+
+;; 4 buffers
+;;(setq split-width-threshold 91)
 ;;(setq split-width-threshold 80)
 
 (scroll-bar-mode 0)
