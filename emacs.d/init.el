@@ -218,6 +218,13 @@
 (add-hook 'cider-repl-mode-hook #'the-cider-repl-hook)
 
 ;; --------------------------------------------------------------------------------
+;; Golang
+
+(use-package go-mode
+  :init
+  (add-hook 'go-mode-hook (lambda () (setq tab-width 4))))
+
+;; --------------------------------------------------------------------------------
 ;; keys.el
 
 (global-set-key (kbd "C-,") 'other-window)
@@ -239,7 +246,9 @@
   (progn
     (defun the-markdown-mode-hook ()
       (auto-fill-mode 1)
-      (set-fill-column 86))
+      (flyspell-mode)
+      (set-fill-column 86)
+      (define-key flyspell-mode-map (kbd "C-,") nil))
     (add-hook 'markdown-mode-hook #'the-markdown-mode-hook)))
 
 (defun the-org-mode-hook ()
@@ -263,17 +272,36 @@
 
 (use-package impatient-mode)
 
+;; Start impatient mode in the buffers you're interested to live preview:
+;;
+;; M-x httpd-start
+;; M-x impatient-mode.
+;;
+;; Open your browser to localhost:8080/imp. You'll see the list of buffers with the mode enabled.
+;;
+;; Click on one: you see live rendering of the buffer.
+;;
+;; Tell impatient mode to use it: M-x imp-set-user-filter RET markdown-html RET
+;;
+;; source: https://stackoverflow.com/questions/36183071/how-can-i-preview-markdown-in-emacs-in-real-timeq
+
+
 (defun markdown-html (buffer)
   (princ (with-current-buffer buffer
 	   (format "<!DOCTYPE html><html><title>Impatient Markdown</title><xmp theme=\"united\" style=\"display:none;\"> %s  </xmp><script src=\"http://strapdownjs.com/v/0.2/strapdown.js\"></script></html>"
 		   (buffer-substring-no-properties (point-min) (point-max))))
 	 (current-buffer)))
 
-;; Start impatient mode in the buffers you're interested to live preview: M-x impatient-mode.
-;; Open your browser to localhost:8080/imp. You'll see the list of buffers with the mode enabled.
-;; Click on one: you see live rendering of the buffer.
-;; Tell impatient mode to use it: M-x imp-set-user-filter RET markdown-html RET
-;; source: https://stackoverflow.com/questions/36183071/how-can-i-preview-markdown-in-emacs-in-real-time
+(require 'auth-source)
+(use-package grip-mode
+  :init
+  (progn
+    (setq grip-binary-path (concat (getenv "HOME") "/.local/bin/grip"))
+    ;; only render on save
+    (setq grip-update-after-change nil)
+    (let ((credential (auth-source-user-and-password "api.github.com")))
+      (setq grip-github-user (car credential)
+            grip-github-password (cadr credential)))))
 
 ;; --------------------------------------------------------------------------------
 ;; misc / should be elsewhere
