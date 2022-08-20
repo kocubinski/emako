@@ -5,6 +5,7 @@
  (magit-diff
   ("--no-ext-diff" "--stat"))
  (magit-dispatch nil)
+ (magit-ediff nil)
  (magit-fetch nil)
  (magit-log
   ("-n256" "--graph" "--decorate"))
@@ -17,4 +18,5 @@
   ("--autostash")
   nil)
  (magit-reset nil)
- (magit-stash nil))
+ (magit-stash nil)
+ (magit-worktree nil))

@@ -11,3 +11,6 @@ network-security.data
 org-templates/
 session.*
 custom.el
+emacs.d/.dap-breakpoints
+emacs.d/.extension/
+emacs.d/.org-id-locations

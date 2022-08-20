@@ -5,6 +5,7 @@
 (add-to-list 'exec-path "/usr/local/opt/openjdk@8/bin")
 (add-to-list 'exec-path	"/usr/local/bin")
 (add-to-list 'exec-path (concat (getenv "HOME") "/.local/opt/node/bin"))
+;;(add-to-list 'exec-path (concat (getenv "HOME") "/go/bin"))
 
 (setenv "PATH" (concat "/usr/local/opt/openjdk@8/bin:" (getenv "PATH")))
 (setenv "JAVA_HOME" "/usr/local/opt/openjdk@8")
@@ -74,6 +75,9 @@
 (scroll-bar-mode 0)
 (tool-bar-mode 0)
 (menu-bar-mode 0)
+
+;; disable bell
+(setq visible-bell 1)
 
 ;; --------------------------------------------------------------------------------
 ;; ux.el
@@ -218,11 +222,47 @@
 (add-hook 'cider-repl-mode-hook #'the-cider-repl-hook)
 
 ;; --------------------------------------------------------------------------------
-;; Golang
+;; golang.el
 
 (use-package go-mode
   :init
   (add-hook 'go-mode-hook (lambda () (setq tab-width 4))))
+
+;; and subsequently, lsp-mode; source: https://emacs-lsp.github.io/lsp-mode/page/installation/
+
+(use-package lsp-mode
+  :init
+  ;; set prefix for lsp-command-keymap (few alternatives - "C-l", "C-c l")
+  (setq lsp-keymap-prefix "C-c l")
+  :hook ((go-mode . lsp)
+         ;; if you want which-key integration
+         (lsp-mode . lsp-enable-which-key-integration))
+  :commands lsp)
+
+;; optionally
+(use-package lsp-ui :commands lsp-ui-mode)
+;; if you are helm user
+(use-package helm-lsp :commands helm-lsp-workspace-symbol)
+
+;; if you are ivy user
+;;(use-package lsp-ivy :commands lsp-ivy-workspace-symbol)
+;;(use-package lsp-treemacs :commands lsp-treemacs-errors-list)
+
+;; optionally if you want to use debugger
+(use-package dap-mode)
+(require 'dap-go)
+;; (use-package dap-LANGUAGE) to load the dap adapter for your language
+
+;; optional if you want which-key integration
+(use-package which-key
+    :config
+    (which-key-mode))
+
+;; source: https://emacs.blog/2022/02/20/golang-ide-setup-in-emacs/#org7e558ca
+;; To set the garbage collection threshold to high (100 MB) since LSP client-server communication generates a lot of output/garbage
+(setq gc-cons-threshold 100000000)
+;; To increase the amount of data Emacs reads from a process
+(setq read-process-output-max (* 1024 1024)) 
 
 ;; --------------------------------------------------------------------------------
 ;; keys.el
@@ -302,6 +342,12 @@
     (let ((credential (auth-source-user-and-password "api.github.com")))
       (setq grip-github-user (car credential)
             grip-github-password (cadr credential)))))
+
+(use-package mermaid-mode
+  :init
+  (progn
+    (setq mermaid-mmdc-location (concat (getenv "HOME")
+					"/.local/opt/node_modules/.bin/mmdc"))))
 
 ;; --------------------------------------------------------------------------------
 ;; misc / should be elsewhere
