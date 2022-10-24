@@ -78,4 +78,15 @@
 (doom-load-envvars-file "~/dev/doomemacs/.local/env")
 
 (after! lsp-mode
- (setq lsp-log-max t))
+  (setq lsp-log-max t))
+
+(require 'auth-source)
+(use-package grip-mode
+  :init
+  (progn
+    (setq grip-binary-path (concat (getenv "HOME") "/.local/bin/grip"))
+    ;; only render on save
+    (setq grip-update-after-change nil)
+    (let ((credential (auth-source-user-and-password "api.github.com")))
+      (setq grip-github-user (car credential)
+            grip-github-password (cadr credential)))))
