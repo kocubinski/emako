@@ -90,3 +90,13 @@
     (let ((credential (auth-source-user-and-password "api.github.com")))
       (setq grip-github-user (car credential)
             grip-github-password (cadr credential)))))
+
+(defun the-org-mode-hook ()
+  (auto-fill-mode 1)
+  (set-fill-column 110)
+  (flyspell-mode)
+  ;;(define-key org-mode-map (kbd "C-,") nil)
+  ;;(define-key flyspell-mode-map (kbd "C-,") nil)
+  )
+
+(add-hook 'org-mode-hook #'the-org-mode-hook)
