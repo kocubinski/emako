@@ -2,10 +2,12 @@
   (load-file  (expand-file-name f user-emacs-directory)))
 
 ;; os x only
-(add-to-list 'exec-path "/usr/local/opt/openjdk@8/bin")
-(add-to-list 'exec-path	"/usr/local/bin")
-(add-to-list 'exec-path (concat (getenv "HOME") "/.local/opt/node/bin"))
-;;(add-to-list 'exec-path (concat (getenv "HOME") "/go/bin"))
+;;(add-to-list 'exec-path "/usr/local/opt/openjdk@8/bin")
+;;(add-to-list 'exec-path	"/usr/local/bin")
+;;(add-to-list 'exec-path (concat (getenv "HOME") "/.local/opt/node/bin"))
+;;(add-to-list 'exec-path (concat (getenv "HOME") "/.local/bin"))
+
+(use-package exec-path-from-shell)
 
 (setenv "PATH" (concat "/usr/local/opt/openjdk@8/bin:" (getenv "PATH")))
 (setenv "JAVA_HOME" "/usr/local/opt/openjdk@8")
@@ -59,7 +61,7 @@
 (setq-default cursor-type 'bar)
 (global-hl-line-mode 1)
 
-(set-face-attribute 'default nil :font "Dejavu Sans Mono-9")
+(set-face-attribute 'default nil :font "Monaco-14")
 ;;(set-face-attribute 'default nil :font "Menlo-9")
 
 ;; default vertical split?
@@ -336,7 +338,7 @@
 (use-package grip-mode
   :init
   (progn
-    (setq grip-binary-path (concat (getenv "HOME") "/.local/bin/grip"))
+    ;; (setq grip-binary-path (concat (getenv "HOME") "/.local/bin/grip"))
     ;; only render on save
     (setq grip-update-after-change nil)
     (let ((credential (auth-source-user-and-password "api.github.com")))
@@ -346,8 +348,12 @@
 (use-package mermaid-mode
   :init
   (progn
+<<<<<<< Updated upstream
     (setq mermaid-mmdc-location (concat (getenv "HOME")
 					"/.local/opt/node_modules/.bin/mmdc"))))
+=======
+    (setq mermaid-mmdc-location (concat (getenv "HOME") "/.local/bin/mmdc"))))
+>>>>>>> Stashed changes
 
 ;; --------------------------------------------------------------------------------
 ;; misc / should be elsewhere

@@ -99,4 +99,13 @@
   ;;(define-key flyspell-mode-map (kbd "C-,") nil)
   )
 
+(require 'ox-tufte)
+
 (add-hook 'org-mode-hook #'the-org-mode-hook)
+
+;; Perhaps for MacOs only?
+(use-package flyspell
+  :init
+  (progn
+    (define-key flyspell-mouse-map [down-mouse-3] #'flyspell-correct-word)
+    (define-key flyspell-mouse-map [mouse-3] #'undefined)))
