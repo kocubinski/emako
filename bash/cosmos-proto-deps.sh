@@ -1,5 +1,7 @@
 #/bin/bash
 
+set -o errexit
+
 GOLANG_PROTOBUF_VERSION=1.28.1
 GRPC_GATEWAY_VERSION=1.16.0
 SRCDIR=$HOME/dev
@@ -11,7 +13,7 @@ go install github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway@v${GRP
 
 # install all gogo protobuf binaries
 cd $SRCDIR
-git clone https://github.com/cosmos/gogoproto.git; \
+git clone -b v1.4.3 https://github.com/cosmos/gogoproto.git; \
   cd gogoproto; \
   go mod download; \
   make install
