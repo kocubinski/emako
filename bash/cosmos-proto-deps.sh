@@ -13,7 +13,7 @@ go install github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway@v${GRP
 
 # install all gogo protobuf binaries
 cd $SRCDIR
-git clone -b v1.4.3 https://github.com/cosmos/gogoproto.git; \
+git clone https://github.com/cosmos/gogoproto.git; \
   cd gogoproto; \
   go mod download; \
   make install
