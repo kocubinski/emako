@@ -109,3 +109,20 @@
   (progn
     (define-key flyspell-mouse-map [down-mouse-3] #'flyspell-correct-word)
     (define-key flyspell-mouse-map [mouse-3] #'undefined)))
+
+;; org mode export
+(setq org-publish-project-alist
+      '(("blog"
+         :base-directory "~/dev/notebook/org/blog"
+         :base-extension "org"
+         :publishing-directory "~/dev/notebook/org/public/blog/"
+         :publishing-function org-html-publish-to-tufte-html
+         :headline-level 3
+         :section-numbers nil
+         :with-toc nil
+         :html-head "<link rel=\"stylesheet\" type=\"text/css\" href=\"tufte.css\"/><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"/>"
+         :html-preamble t
+         :html-postamble nil
+         :html-link-up "index.html"
+         :html-link-home "index.html"
+         )))
