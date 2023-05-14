@@ -33,6 +33,8 @@
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
 (setq doom-theme 'doom-one)
+;; (setq doom-font "MesloLGS NF-13")
+(setq doom-font (font-spec :family "MesloLGS NF" :size 14))
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
@@ -75,7 +77,7 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
-(doom-load-envvars-file "~/dev/doomemacs/.local/env")
+(doom-load-envvars-file "~/.emacs.d/.local/env")
 
 (after! lsp-mode
   (setq lsp-log-max t))
@@ -91,6 +93,7 @@
       (setq grip-github-user (car credential)
             grip-github-password (cadr credential)))))
 
+(require 'flyspell)
 (defun the-org-mode-hook ()
   (auto-fill-mode 1)
   (set-fill-column 110)
@@ -113,9 +116,9 @@
 ;; org mode export
 (setq org-publish-project-alist
       '(("blog"
-         :base-directory "~/dev/notebook/org/blog"
+         :base-directory "~/src/notebook/org/blog"
          :base-extension "org"
-         :publishing-directory "~/dev/notebook/org/public/blog/"
+         :publishing-directory "~/src/notebook/org/public/blog/"
          :publishing-function org-html-publish-to-tufte-html
          :headline-level 3
          :section-numbers nil
